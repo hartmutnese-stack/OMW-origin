@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "version": "3.6.5",
-  "timestamp": "2026-11-16 18:30 UTC",
-  "generated_at": "2026-11-16T18:30:55Z",
-  "valid_until": "2026-11-16T21:00:55Z",
+  "timestamp": "2026-11-16 19:00 UTC",
+  "generated_at": "2026-11-16T19:00:51Z",
+  "valid_until": "2026-11-16T21:30:51Z",
   "run_status": "COMPLETE",
-  "run_duration_seconds": 18.49,
+  "run_duration_seconds": 4.64,
   "symbol": "☀️",
-  "composite_score": 18,
-  "composite_raw": 18.35,
-  "display_score": 18,
+  "composite_score": 19,
+  "composite_raw": 19.55,
+  "display_score": 19,
   "status": "CLEAR SKIES",
   "desc": "Systemic friction minimal. Normal market conditions across macro and crypto feeds.",
   "color": "#00ff66",
@@ -101,16 +101,16 @@
   },
   "pillars": {
     "market_volatility": {
-      "score": 40,
-      "vix": 22.26,
-      "move_index": 99.13,
+      "score": 42,
+      "vix": 23.43,
+      "move_index": 98.93,
       "fallback": false
     },
     "crypto_leverage": {
-      "score": 5,
+      "score": 6,
       "btc_funding_apr": 11.0,
-      "btc_oi_mil": 2360.8,
-      "dvol_index": 43.0,
+      "btc_oi_mil": 2411.2,
+      "dvol_index": 43.3,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
@@ -131,8 +131,8 @@
       "swaps_fallback": false
     },
     "credit_stress": {
-      "score": 49,
-      "sec_8k_filings": 18,
+      "score": 53,
+      "sec_8k_filings": 19,
       "fallback": false
     },
     "odds_and_ends": {
@@ -146,16 +146,16 @@
       "cbp_fallback": false
     },
     "market_implied": {
-      "score": 40,
-      "vix": 22.26,
-      "move_index": 99.13,
+      "score": 42,
+      "vix": 23.43,
+      "move_index": 98.93,
       "fallback": false
     },
     "crypto_247": {
-      "score": 5,
+      "score": 6,
       "btc_funding_apr": 11.0,
-      "btc_oi_mil": 2360.8,
-      "dvol_index": 43.0,
+      "btc_oi_mil": 2411.2,
+      "dvol_index": 43.3,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
@@ -176,8 +176,8 @@
       "swaps_fallback": false
     },
     "credit_statutory": {
-      "score": 49,
-      "sec_8k_filings": 18,
+      "score": 53,
+      "sec_8k_filings": 19,
       "fallback": false
     },
     "cognitive_physical": {
