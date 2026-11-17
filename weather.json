@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "version": "3.6.5",
-  "timestamp": "2026-11-17 20:30 UTC",
-  "generated_at": "2026-11-17T20:30:39Z",
-  "valid_until": "2026-11-17T23:00:39Z",
+  "timestamp": "2026-11-17 21:00 UTC",
+  "generated_at": "2026-11-17T21:00:48Z",
+  "valid_until": "2026-11-17T23:30:48Z",
   "run_status": "COMPLETE",
-  "run_duration_seconds": 3.17,
+  "run_duration_seconds": 2.73,
   "symbol": "⛅",
-  "composite_score": 28,
-  "composite_raw": 28.0,
-  "display_score": 28,
+  "composite_score": 29,
+  "composite_raw": 29.8,
+  "display_score": 29,
   "status": "SCATTERED CLOUDS",
   "desc": "Operational noise within standard ranges. No immediate systemic fracture.",
   "color": "#ffcc00",
@@ -86,7 +86,7 @@
     "crypto_perps": {
       "status": "NOMINAL",
       "color": "#00ff66",
-      "action": "Moderate derivatives bias (+6.5% APR)."
+      "action": "Neutral baseline funding (+11.0% APR)."
     },
     "dark_pool": {
       "status": "ELEVATED",
@@ -101,16 +101,16 @@
   },
   "pillars": {
     "market_volatility": {
-      "score": 52,
-      "vix": 27.07,
-      "move_index": 101.89,
+      "score": 49,
+      "vix": 25.71,
+      "move_index": 101.87,
       "fallback": false
     },
     "crypto_leverage": {
-      "score": 10,
-      "btc_funding_apr": 6.5,
-      "btc_oi_mil": 2389.0,
-      "dvol_index": 44.6,
+      "score": 7,
+      "btc_funding_apr": 11.0,
+      "btc_oi_mil": 2404.6,
+      "dvol_index": 44.9,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
@@ -122,9 +122,9 @@
       "fallback": false
     },
     "dollar_liquidity": {
-      "score": 14,
-      "tga_billions": 924.6,
-      "tga_5d_flow": 14.3,
+      "score": 28,
+      "tga_billions": 895.8,
+      "tga_5d_flow": -26.9,
       "swaps_billions": 0.0,
       "fallback": false,
       "tga_fallback": false,
@@ -136,26 +136,26 @@
       "fallback": false
     },
     "odds_and_ends": {
-      "score": 8,
+      "score": 10,
       "wiki_z": 0.1,
       "wiki_articles_ok": 4,
-      "border_wait_m": 35,
+      "border_wait_m": 40,
       "border_state": "OBSERVED",
       "fallback": false,
       "wiki_fallback": false,
       "cbp_fallback": false
     },
     "market_implied": {
-      "score": 52,
-      "vix": 27.07,
-      "move_index": 101.89,
+      "score": 49,
+      "vix": 25.71,
+      "move_index": 101.87,
       "fallback": false
     },
     "crypto_247": {
-      "score": 10,
-      "btc_funding_apr": 6.5,
-      "btc_oi_mil": 2389.0,
-      "dvol_index": 44.6,
+      "score": 7,
+      "btc_funding_apr": 11.0,
+      "btc_oi_mil": 2404.6,
+      "dvol_index": 44.9,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
@@ -167,9 +167,9 @@
       "fallback": false
     },
     "liquidity_plumbing": {
-      "score": 14,
-      "tga_billions": 924.6,
-      "tga_5d_flow": 14.3,
+      "score": 28,
+      "tga_billions": 895.8,
+      "tga_5d_flow": -26.9,
       "swaps_billions": 0.0,
       "fallback": false,
       "tga_fallback": false,
@@ -181,10 +181,10 @@
       "fallback": false
     },
     "cognitive_physical": {
-      "score": 8,
+      "score": 10,
       "wiki_z": 0.1,
       "wiki_articles_ok": 4,
-      "border_wait_m": 35,
+      "border_wait_m": 40,
       "border_state": "OBSERVED",
       "fallback": false,
       "wiki_fallback": false,
