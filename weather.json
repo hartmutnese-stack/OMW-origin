@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
   "version": "3.6.5",
-  "timestamp": "2026-11-17 03:00 UTC",
-  "generated_at": "2026-11-17T03:00:57Z",
-  "valid_until": "2026-11-17T05:30:57Z",
+  "timestamp": "2026-11-17 03:30 UTC",
+  "generated_at": "2026-11-17T03:30:36Z",
+  "valid_until": "2026-11-17T06:00:36Z",
   "run_status": "COMPLETE",
-  "run_duration_seconds": 3.24,
-  "symbol": "⛅",
-  "composite_score": 25,
-  "composite_raw": 25.1,
-  "display_score": 25,
-  "status": "SCATTERED CLOUDS",
-  "desc": "Operational noise within standard ranges. No immediate systemic fracture.",
-  "color": "#ffcc00",
+  "run_duration_seconds": 2.57,
+  "symbol": "☀️",
+  "composite_score": 24,
+  "composite_raw": 24.5,
+  "display_score": 24,
+  "status": "CLEAR SKIES",
+  "desc": "Systemic friction minimal. Normal market conditions across macro and crypto feeds.",
+  "color": "#00ff66",
   "data_quality": {
     "status": "HIGH",
     "score": 100,
@@ -86,7 +86,7 @@
     "crypto_perps": {
       "status": "NOMINAL",
       "color": "#00ff66",
-      "action": "Moderate derivatives bias (+3.0% APR)."
+      "action": "Moderate derivatives bias (+7.7% APR)."
     },
     "dark_pool": {
       "status": "ELEVATED",
@@ -107,9 +107,9 @@
       "fallback": false
     },
     "crypto_leverage": {
-      "score": 11,
-      "btc_funding_apr": 3.0,
-      "btc_oi_mil": 2454.6,
+      "score": 8,
+      "btc_funding_apr": 7.7,
+      "btc_oi_mil": 2450.0,
       "dvol_index": 43.8,
       "fallback": false,
       "hl_fallback": false,
@@ -139,7 +139,7 @@
       "score": 1,
       "wiki_z": 0.1,
       "wiki_articles_ok": 4,
-      "border_wait_m": 5,
+      "border_wait_m": 0,
       "border_state": "OBSERVED",
       "fallback": false,
       "wiki_fallback": false,
@@ -152,9 +152,9 @@
       "fallback": false
     },
     "crypto_247": {
-      "score": 11,
-      "btc_funding_apr": 3.0,
-      "btc_oi_mil": 2454.6,
+      "score": 8,
+      "btc_funding_apr": 7.7,
+      "btc_oi_mil": 2450.0,
       "dvol_index": 43.8,
       "fallback": false,
       "hl_fallback": false,
@@ -184,7 +184,7 @@
       "score": 1,
       "wiki_z": 0.1,
       "wiki_articles_ok": 4,
-      "border_wait_m": 5,
+      "border_wait_m": 0,
       "border_state": "OBSERVED",
       "fallback": false,
       "wiki_fallback": false,
