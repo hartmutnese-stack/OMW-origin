@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
   "version": "3.6.5",
-  "timestamp": "2026-11-16 23:30 UTC",
-  "generated_at": "2026-11-16T23:30:49Z",
-  "valid_until": "2026-11-17T02:00:49Z",
+  "timestamp": "2026-11-17 00:01 UTC",
+  "generated_at": "2026-11-17T00:01:01Z",
+  "valid_until": "2026-11-17T02:31:01Z",
   "run_status": "COMPLETE",
-  "run_duration_seconds": 4.73,
-  "symbol": "⛅",
-  "composite_score": 28,
-  "composite_raw": 28.45,
-  "display_score": 28,
-  "status": "SCATTERED CLOUDS",
-  "desc": "Operational noise within standard ranges. No immediate systemic fracture.",
-  "color": "#ffcc00",
+  "run_duration_seconds": 13.9,
+  "symbol": "☀️",
+  "composite_score": 23,
+  "composite_raw": 23.9,
+  "display_score": 23,
+  "status": "CLEAR SKIES",
+  "desc": "Systemic friction minimal. Normal market conditions across macro and crypto feeds.",
+  "color": "#00ff66",
   "data_quality": {
     "status": "HIGH",
     "score": 100,
@@ -109,8 +109,8 @@
     "crypto_leverage": {
       "score": 5,
       "btc_funding_apr": 11.0,
-      "btc_oi_mil": 2512.7,
-      "dvol_index": 43.0,
+      "btc_oi_mil": 2416.8,
+      "dvol_index": 43.1,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
@@ -131,13 +131,13 @@
       "swaps_fallback": false
     },
     "credit_stress": {
-      "score": 58,
-      "sec_8k_filings": 20,
+      "score": 27,
+      "sec_8k_filings": 13,
       "fallback": false
     },
     "odds_and_ends": {
-      "score": 0,
-      "wiki_z": 0.03,
+      "score": 1,
+      "wiki_z": 0.1,
       "wiki_articles_ok": 4,
       "border_wait_m": 5,
       "border_state": "OBSERVED",
@@ -154,8 +154,8 @@
     "crypto_247": {
       "score": 5,
       "btc_funding_apr": 11.0,
-      "btc_oi_mil": 2512.7,
-      "dvol_index": 43.0,
+      "btc_oi_mil": 2416.8,
+      "dvol_index": 43.1,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
@@ -176,13 +176,13 @@
       "swaps_fallback": false
     },
     "credit_statutory": {
-      "score": 58,
-      "sec_8k_filings": 20,
+      "score": 27,
+      "sec_8k_filings": 13,
       "fallback": false
     },
     "cognitive_physical": {
-      "score": 0,
-      "wiki_z": 0.03,
+      "score": 1,
+      "wiki_z": 0.1,
       "wiki_articles_ok": 4,
       "border_wait_m": 5,
       "border_state": "OBSERVED",
