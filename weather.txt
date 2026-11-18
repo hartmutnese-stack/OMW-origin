@@ -1,31 +1,30 @@
 
 ======================================================================
  OPEN MARKET WEATHER OBSERVATORY // HYBRID MACRO & CRYPTO // v3.6.5
- 2026-11-18 14:31 UTC // DEGRADED // VALID UNTIL 2026-11-18T17:01:12Z
+ 2026-11-18 15:00 UTC // COMPLETE // VALID UNTIL 2026-11-18T17:30:58Z
 ======================================================================
 
  SCOPE: Experimental rule-based macro regime observer.
  NOTICE: Purely heuristic. Not an investment signal, solicitation, or advice.
 
- OVERALL STATUS : CLEAR SKIES [Score: 22/100]
- DATA QUALITY   : MEDIUM [85/100]
- DEGRADED FEEDS : tga
- CURRENT REGIME : Systemic friction minimal. Normal market conditions across macro and crypto feeds.
+ OVERALL STATUS : SCATTERED CLOUDS [Score: 25/100]
+ DATA QUALITY   : HIGH [100/100]
+ CURRENT REGIME : Operational noise within standard ranges. No immediate systemic fracture.
 
  --- OPERATIONAL POSTURE (RULE-BASED REFERENCE HEURISTICS) ---
- [*] GRID BOTS    : CAUTION -> Reference: wider grid bands (+15-25%). Upstream data quality is degraded.
- [*] DIP BUYING   : DEFENSIVE -> Support looks fragile; falling-knife risk is elevated.
- [*] CRYPTO PERPS : NOMINAL -> Moderate derivatives bias (+3.8% APR).
+ [*] GRID BOTS    : CAUTION -> Reference: wider grid bands (+15-25%), smaller sizes or leverage.
+ [*] DIP BUYING   : FAVORABLE -> Orderly pullbacks. Liquidity supports absorption.
+ [*] CRYPTO PERPS : NOMINAL -> Neutral baseline funding (+11.0% APR).
  [*] SHORT VOLUME : NOMINAL -> Normal short volume share on SPY (51.6%).
  [*] COLLATERAL   : STABLE -> No meaningful central bank swap operations.
 
  --- 6 PILLARS ---
- [1] Market Volatility : Score 44/100 (VIX: 24.21 | MOVE: 99.07)
- [2] Crypto Leverage   : Score 12/100 (Funding: +3.8% APR | DVOL: 44.8%)
+ [1] Market Volatility : Score 47/100 (VIX: 25.86 | MOVE: 97.9)
+ [2] Crypto Leverage   : Score 7/100 (Funding: +11.0% APR | DVOL: 45.0%)
  [3] Short Volume      : Score 26/100 (Short ratio: 51.6% (20261117))
- [4] Dollar Liquidity  : Score 10/100 (TGA: $850.0B | Swaps: $0.0B) [fallback: tga]
+ [4] Dollar Liquidity  : Score 28/100 (TGA: $895.8B | Swaps: $0.0B)
  [5] Credit Stress     : Score 31/100 (Filings: 14)
- [6] Odds and Ends     : Score 3/100 (Wiki Z: +0.2σ | Border: 0m)
+ [6] Odds and Ends     : Score 3/100 (Wiki Z: +0.2σ | Border: 15m)
 
  API: curl -sL https://open-market-weather.hartmut-nese.workers.dev/weather.json
  REPO: https://github.com/hartmutnese-stack/open-market-weather
