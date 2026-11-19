@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "version": "3.6.5",
-  "timestamp": "2026-11-19 19:00 UTC",
-  "generated_at": "2026-11-19T19:00:56Z",
-  "valid_until": "2026-11-19T21:30:56Z",
+  "timestamp": "2026-11-19 19:30 UTC",
+  "generated_at": "2026-11-19T19:30:37Z",
+  "valid_until": "2026-11-19T22:00:37Z",
   "run_status": "COMPLETE",
-  "run_duration_seconds": 10.63,
+  "run_duration_seconds": 3.42,
   "symbol": "☀️",
-  "composite_score": 21,
-  "composite_raw": 21.1,
-  "display_score": 21,
+  "composite_score": 22,
+  "composite_raw": 22.25,
+  "display_score": 22,
   "status": "CLEAR SKIES",
   "desc": "Systemic friction minimal. Normal market conditions across macro and crypto feeds.",
   "color": "#00ff66",
@@ -101,16 +101,16 @@
   },
   "pillars": {
     "market_volatility": {
-      "score": 48,
-      "vix": 27.02,
-      "move_index": 95.53,
+      "score": 50,
+      "vix": 27.87,
+      "move_index": 94.93,
       "fallback": false
     },
     "crypto_leverage": {
       "score": 8,
       "btc_funding_apr": 11.0,
-      "btc_oi_mil": 2436.0,
-      "dvol_index": 45.3,
+      "btc_oi_mil": 2460.0,
+      "dvol_index": 45.4,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
@@ -131,8 +131,8 @@
       "swaps_fallback": false
     },
     "credit_stress": {
-      "score": 44,
-      "sec_8k_filings": 17,
+      "score": 49,
+      "sec_8k_filings": 18,
       "fallback": false
     },
     "odds_and_ends": {
@@ -146,16 +146,16 @@
       "cbp_fallback": false
     },
     "market_implied": {
-      "score": 48,
-      "vix": 27.02,
-      "move_index": 95.53,
+      "score": 50,
+      "vix": 27.87,
+      "move_index": 94.93,
       "fallback": false
     },
     "crypto_247": {
       "score": 8,
       "btc_funding_apr": 11.0,
-      "btc_oi_mil": 2436.0,
-      "dvol_index": 45.3,
+      "btc_oi_mil": 2460.0,
+      "dvol_index": 45.4,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
@@ -176,8 +176,8 @@
       "swaps_fallback": false
     },
     "credit_statutory": {
-      "score": 44,
-      "sec_8k_filings": 17,
+      "score": 49,
+      "sec_8k_filings": 18,
       "fallback": false
     },
     "cognitive_physical": {
