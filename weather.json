@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "version": "3.6.5",
-  "timestamp": "2026-11-19 06:00 UTC",
-  "generated_at": "2026-11-19T06:00:49Z",
-  "valid_until": "2026-11-19T08:30:49Z",
+  "timestamp": "2026-11-19 06:30 UTC",
+  "generated_at": "2026-11-19T06:30:38Z",
+  "valid_until": "2026-11-19T09:00:38Z",
   "run_status": "COMPLETE",
-  "run_duration_seconds": 4.26,
+  "run_duration_seconds": 2.85,
   "symbol": "☀️",
   "composite_score": 20,
-  "composite_raw": 20.5,
+  "composite_raw": 20.8,
   "display_score": 20,
   "status": "CLEAR SKIES",
   "desc": "Systemic friction minimal. Normal market conditions across macro and crypto feeds.",
@@ -55,7 +55,8 @@
       "detail": "4/6 articles usable"
     },
     "cbp": {
-      "status": "OK"
+      "status": "CLOSED",
+      "detail": "Laredo feed reachable; no delay value"
     }
   },
   "transition": {
@@ -86,7 +87,7 @@
     "crypto_perps": {
       "status": "NOMINAL",
       "color": "#00ff66",
-      "action": "Neutral baseline funding (+10.1% APR)."
+      "action": "Moderate derivatives bias (+0.2% APR)."
     },
     "dark_pool": {
       "status": "NOMINAL",
@@ -107,10 +108,10 @@
       "fallback": false
     },
     "crypto_leverage": {
-      "score": 9,
-      "btc_funding_apr": 10.1,
-      "btc_oi_mil": 2431.2,
-      "dvol_index": 46.4,
+      "score": 16,
+      "btc_funding_apr": 0.2,
+      "btc_oi_mil": 2484.8,
+      "dvol_index": 46.2,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
@@ -136,11 +137,11 @@
       "fallback": false
     },
     "odds_and_ends": {
-      "score": 15,
+      "score": 4,
       "wiki_z": 0.31,
       "wiki_articles_ok": 4,
-      "border_wait_m": 45,
-      "border_state": "OBSERVED",
+      "border_wait_m": null,
+      "border_state": "CLOSED",
       "fallback": false,
       "wiki_fallback": false,
       "cbp_fallback": false
@@ -152,10 +153,10 @@
       "fallback": false
     },
     "crypto_247": {
-      "score": 9,
-      "btc_funding_apr": 10.1,
-      "btc_oi_mil": 2431.2,
-      "dvol_index": 46.4,
+      "score": 16,
+      "btc_funding_apr": 0.2,
+      "btc_oi_mil": 2484.8,
+      "dvol_index": 46.2,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
@@ -181,11 +182,11 @@
       "fallback": false
     },
     "cognitive_physical": {
-      "score": 15,
+      "score": 4,
       "wiki_z": 0.31,
       "wiki_articles_ok": 4,
-      "border_wait_m": 45,
-      "border_state": "OBSERVED",
+      "border_wait_m": null,
+      "border_state": "CLOSED",
       "fallback": false,
       "wiki_fallback": false,
       "cbp_fallback": false
