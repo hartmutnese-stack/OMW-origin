@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "version": "3.6.5",
-  "timestamp": "2026-11-19 23:55 UTC",
-  "generated_at": "2026-11-19T23:55:06Z",
-  "valid_until": "2026-11-20T02:25:06Z",
+  "timestamp": "2026-11-20 00:00 UTC",
+  "generated_at": "2026-11-20T00:00:49Z",
+  "valid_until": "2026-11-20T02:30:49Z",
   "run_status": "COMPLETE",
-  "run_duration_seconds": 2.21,
+  "run_duration_seconds": 4.32,
   "symbol": "⛅",
-  "composite_score": 29,
-  "composite_raw": 29.45,
-  "display_score": 29,
+  "composite_score": 28,
+  "composite_raw": 28.95,
+  "display_score": 28,
   "status": "SCATTERED CLOUDS",
   "desc": "Operational noise within standard ranges. No immediate systemic fracture.",
   "color": "#ffcc00",
@@ -86,7 +86,7 @@
     "crypto_perps": {
       "status": "NOMINAL",
       "color": "#00ff66",
-      "action": "Moderate derivatives bias (+7.5% APR)."
+      "action": "Neutral baseline funding (+11.0% APR)."
     },
     "dark_pool": {
       "status": "NOMINAL",
@@ -107,9 +107,9 @@
       "fallback": false
     },
     "crypto_leverage": {
-      "score": 11,
-      "btc_funding_apr": 7.5,
-      "btc_oi_mil": 2373.7,
+      "score": 8,
+      "btc_funding_apr": 11.0,
+      "btc_oi_mil": 2387.3,
       "dvol_index": 45.9,
       "fallback": false,
       "hl_fallback": false,
@@ -136,8 +136,8 @@
       "fallback": false
     },
     "odds_and_ends": {
-      "score": 13,
-      "wiki_z": 0.31,
+      "score": 14,
+      "wiki_z": 0.39,
       "wiki_articles_ok": 4,
       "border_wait_m": 40,
       "border_state": "OBSERVED",
@@ -152,9 +152,9 @@
       "fallback": false
     },
     "crypto_247": {
-      "score": 11,
-      "btc_funding_apr": 7.5,
-      "btc_oi_mil": 2373.7,
+      "score": 8,
+      "btc_funding_apr": 11.0,
+      "btc_oi_mil": 2387.3,
       "dvol_index": 45.9,
       "fallback": false,
       "hl_fallback": false,
@@ -181,8 +181,8 @@
       "fallback": false
     },
     "cognitive_physical": {
-      "score": 13,
-      "wiki_z": 0.31,
+      "score": 14,
+      "wiki_z": 0.39,
       "wiki_articles_ok": 4,
       "border_wait_m": 40,
       "border_state": "OBSERVED",
