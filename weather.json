@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "version": "3.6.5",
-  "timestamp": "2026-11-20 05:00 UTC",
-  "generated_at": "2026-11-20T05:00:53Z",
-  "valid_until": "2026-11-20T07:30:53Z",
+  "timestamp": "2026-11-20 05:30 UTC",
+  "generated_at": "2026-11-20T05:30:37Z",
+  "valid_until": "2026-11-20T08:00:37Z",
   "run_status": "COMPLETE",
-  "run_duration_seconds": 1.89,
+  "run_duration_seconds": 3.47,
   "symbol": "⛅",
   "composite_score": 29,
   "composite_raw": 29.75,
@@ -109,8 +109,8 @@
     "crypto_leverage": {
       "score": 12,
       "btc_funding_apr": 11.0,
-      "btc_oi_mil": 2456.4,
-      "dvol_index": 49.1,
+      "btc_oi_mil": 2468.9,
+      "dvol_index": 48.9,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
@@ -125,7 +125,7 @@
       "score": 42,
       "tga_billions": 892.3,
       "tga_5d_flow": -40.8,
-      "swaps_billions": 0.15,
+      "swaps_billions": 0.0,
       "fallback": false,
       "tga_fallback": false,
       "swaps_fallback": false
@@ -137,7 +137,7 @@
     },
     "odds_and_ends": {
       "score": 14,
-      "wiki_z": 0.39,
+      "wiki_z": 0.4,
       "wiki_articles_ok": 4,
       "border_wait_m": 40,
       "border_state": "OBSERVED",
@@ -154,8 +154,8 @@
     "crypto_247": {
       "score": 12,
       "btc_funding_apr": 11.0,
-      "btc_oi_mil": 2456.4,
-      "dvol_index": 49.1,
+      "btc_oi_mil": 2468.9,
+      "dvol_index": 48.9,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
@@ -170,7 +170,7 @@
       "score": 42,
       "tga_billions": 892.3,
       "tga_5d_flow": -40.8,
-      "swaps_billions": 0.15,
+      "swaps_billions": 0.0,
       "fallback": false,
       "tga_fallback": false,
       "swaps_fallback": false
@@ -182,7 +182,7 @@
     },
     "cognitive_physical": {
       "score": 14,
-      "wiki_z": 0.39,
+      "wiki_z": 0.4,
       "wiki_articles_ok": 4,
       "border_wait_m": 40,
       "border_state": "OBSERVED",
