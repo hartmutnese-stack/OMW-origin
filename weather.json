@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "version": "3.6.5",
-  "timestamp": "2026-11-20 22:00 UTC",
-  "generated_at": "2026-11-20T22:00:48Z",
-  "valid_until": "2026-11-21T00:30:48Z",
+  "timestamp": "2026-11-20 22:20 UTC",
+  "generated_at": "2026-11-20T22:20:35Z",
+  "valid_until": "2026-11-21T00:50:35Z",
   "run_status": "COMPLETE",
-  "run_duration_seconds": 3.26,
+  "run_duration_seconds": 2.27,
   "symbol": "⛅",
-  "composite_score": 34,
-  "composite_raw": 34.45,
-  "display_score": 34,
+  "composite_score": 47,
+  "composite_raw": 47.6,
+  "display_score": 47,
   "status": "SCATTERED CLOUDS",
   "desc": "Operational noise within standard ranges. No immediate systemic fracture.",
   "color": "#ffcc00",
@@ -59,14 +59,14 @@
     }
   },
   "transition": {
-    "previous_status": "PAUSED",
+    "previous_status": "CAUTION",
     "candidate_status": "CAUTION",
     "required_runs": 2,
     "cold_start": false,
-    "confirmed_runs": 2,
+    "confirmed_runs": 0,
     "recovering": false,
     "recovery_target": null,
-    "status_changed": true,
+    "status_changed": false,
     "market_status": "CAUTION",
     "clean_runs": 2
   },
@@ -76,12 +76,12 @@
       "color": "#ffcc00",
       "action": "Reference: wider grid bands (+15-25%), smaller sizes or leverage.",
       "hysteresis": false,
-      "confirmed_runs": 2
+      "confirmed_runs": 0
     },
     "dip_buying": {
-      "status": "FAVORABLE",
-      "color": "#00ff66",
-      "action": "Orderly pullbacks. Liquidity supports absorption."
+      "status": "DEFENSIVE",
+      "color": "#ff6600",
+      "action": "Support looks fragile; falling-knife risk is elevated."
     },
     "crypto_perps": {
       "status": "NOMINAL",
@@ -89,9 +89,9 @@
       "action": "Neutral baseline funding (+11.0% APR)."
     },
     "dark_pool": {
-      "status": "NOMINAL",
-      "color": "#00ff66",
-      "action": "Normal short volume share on SPY (42.2%)."
+      "status": "HIGH",
+      "color": "#ff0033",
+      "action": "High short volume share on SPY (64.2%)."
     },
     "collateral": {
       "status": "STABLE",
@@ -107,18 +107,18 @@
       "fallback": false
     },
     "crypto_leverage": {
-      "score": 17,
+      "score": 16,
       "btc_funding_apr": 11.0,
-      "btc_oi_mil": 2246.7,
-      "dvol_index": 54.1,
+      "btc_oi_mil": 2268.9,
+      "dvol_index": 53.3,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
     },
     "short_volume": {
-      "score": 0,
-      "spy_short_volume_ratio": 42.2,
-      "report_date": "20261119",
+      "score": 89,
+      "spy_short_volume_ratio": 64.2,
+      "report_date": "20261120",
       "fallback": false
     },
     "dollar_liquidity": {
@@ -152,18 +152,18 @@
       "fallback": false
     },
     "crypto_247": {
-      "score": 17,
+      "score": 16,
       "btc_funding_apr": 11.0,
-      "btc_oi_mil": 2246.7,
-      "dvol_index": 54.1,
+      "btc_oi_mil": 2268.9,
+      "dvol_index": 53.3,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
     },
     "dark_pool_finra": {
-      "score": 0,
-      "spy_short_volume_ratio": 42.2,
-      "report_date": "20261119",
+      "score": 89,
+      "spy_short_volume_ratio": 64.2,
+      "report_date": "20261120",
       "fallback": false
     },
     "liquidity_plumbing": {
