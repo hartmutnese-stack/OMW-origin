@@ -1,28 +1,30 @@
 {
   "schema_version": 1,
   "version": "3.6.5",
-  "timestamp": "2026-11-20 19:00 UTC",
-  "generated_at": "2026-11-20T19:00:51Z",
-  "valid_until": "2026-11-20T21:30:51Z",
-  "run_status": "COMPLETE",
-  "run_duration_seconds": 4.27,
+  "timestamp": "2026-11-20 19:30 UTC",
+  "generated_at": "2026-11-20T19:30:56Z",
+  "valid_until": "2026-11-20T22:00:56Z",
+  "run_status": "DEGRADED",
+  "run_duration_seconds": 16.78,
   "symbol": "⛅",
-  "composite_score": 42,
-  "composite_raw": 42.25,
-  "display_score": 42,
+  "composite_score": 37,
+  "composite_raw": 37.05,
+  "display_score": 37,
   "status": "SCATTERED CLOUDS",
   "desc": "Operational noise within standard ranges. No immediate systemic fracture.",
   "color": "#ffcc00",
   "data_quality": {
-    "status": "HIGH",
-    "score": 100,
-    "fallback_count": 0,
+    "status": "MEDIUM",
+    "score": 75,
+    "fallback_count": 1,
     "stale_count": 0,
-    "degraded_feeds": []
+    "degraded_feeds": [
+      "deribit"
+    ]
   },
   "fallback_flags": {
     "market_volatility": false,
-    "crypto_leverage": false,
+    "crypto_leverage": true,
     "short_volume": false,
     "dollar_liquidity": false,
     "credit_stress": false,
@@ -36,7 +38,8 @@
       "status": "OK"
     },
     "deribit": {
-      "status": "OK"
+      "status": "FALLBACK",
+      "error_type": "TIMEOUT"
     },
     "finra": {
       "status": "OK"
@@ -59,23 +62,23 @@
     }
   },
   "transition": {
-    "previous_status": "CAUTION",
+    "previous_status": "PAUSED",
     "candidate_status": "PAUSED",
     "required_runs": 2,
     "cold_start": false,
     "confirmed_runs": 0,
     "recovering": false,
     "recovery_target": null,
-    "status_changed": true,
+    "status_changed": false,
     "market_status": "PAUSED",
-    "clean_runs": 2
+    "clean_runs": 0
   },
   "tactical_posture": {
     "grid_bots": {
       "status": "PAUSED",
       "color": "#ff0033",
-      "action": "Dislocation risk elevated (overall 42.2, crypto 66). Reference: pause new grid bids.",
-      "hysteresis": false,
+      "action": "Staying paused: market feeds on fallback data, no step down on fallback data.",
+      "hysteresis": true,
       "confirmed_runs": 0
     },
     "dip_buying": {
@@ -86,7 +89,7 @@
     "crypto_perps": {
       "status": "HEAVY SHORT",
       "color": "#ff6600",
-      "action": "Negative perp funding (-25.1% APR). Potential short squeeze."
+      "action": "Negative perp funding (-8.6% APR). Potential short squeeze."
     },
     "dark_pool": {
       "status": "NOMINAL",
@@ -101,19 +104,19 @@
   },
   "pillars": {
     "market_volatility": {
-      "score": 64,
-      "vix": 32.01,
-      "move_index": 103.81,
+      "score": 67,
+      "vix": 33.2,
+      "move_index": 103.78,
       "fallback": false
     },
     "crypto_leverage": {
-      "score": 66,
-      "btc_funding_apr": -25.1,
-      "btc_oi_mil": 2262.2,
-      "dvol_index": 52.8,
-      "fallback": false,
+      "score": 31,
+      "btc_funding_apr": -8.6,
+      "btc_oi_mil": 2212.1,
+      "dvol_index": 52.0,
+      "fallback": true,
       "hl_fallback": false,
-      "dvol_fallback": false
+      "dvol_fallback": true
     },
     "short_volume": {
       "score": 0,
@@ -136,29 +139,29 @@
       "fallback": false
     },
     "odds_and_ends": {
-      "score": 5,
-      "wiki_z": 0.39,
+      "score": 17,
+      "wiki_z": 0.4,
       "wiki_articles_ok": 4,
-      "border_wait_m": 15,
+      "border_wait_m": 45,
       "border_state": "OBSERVED",
       "fallback": false,
       "wiki_fallback": false,
       "cbp_fallback": false
     },
     "market_implied": {
-      "score": 64,
-      "vix": 32.01,
-      "move_index": 103.81,
+      "score": 67,
+      "vix": 33.2,
+      "move_index": 103.78,
       "fallback": false
     },
     "crypto_247": {
-      "score": 66,
-      "btc_funding_apr": -25.1,
-      "btc_oi_mil": 2262.2,
-      "dvol_index": 52.8,
-      "fallback": false,
+      "score": 31,
+      "btc_funding_apr": -8.6,
+      "btc_oi_mil": 2212.1,
+      "dvol_index": 52.0,
+      "fallback": true,
       "hl_fallback": false,
-      "dvol_fallback": false
+      "dvol_fallback": true
     },
     "dark_pool_finra": {
       "score": 0,
@@ -181,10 +184,10 @@
       "fallback": false
     },
     "cognitive_physical": {
-      "score": 5,
-      "wiki_z": 0.39,
+      "score": 17,
+      "wiki_z": 0.4,
       "wiki_articles_ok": 4,
-      "border_wait_m": 15,
+      "border_wait_m": 45,
       "border_state": "OBSERVED",
       "fallback": false,
       "wiki_fallback": false,

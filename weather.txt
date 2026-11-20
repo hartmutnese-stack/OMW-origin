@@ -1,30 +1,31 @@
 
 ======================================================================
  OPEN MARKET WEATHER OBSERVATORY // HYBRID MACRO & CRYPTO // v3.6.5
- 2026-11-20 19:00 UTC // COMPLETE // VALID UNTIL 2026-11-20T21:30:51Z
+ 2026-11-20 19:30 UTC // DEGRADED // VALID UNTIL 2026-11-20T22:00:56Z
 ======================================================================
 
  SCOPE: Experimental rule-based macro regime observer.
  NOTICE: Purely heuristic. Not an investment signal, solicitation, or advice.
 
- OVERALL STATUS : SCATTERED CLOUDS [Score: 42/100]
- DATA QUALITY   : HIGH [100/100]
+ OVERALL STATUS : SCATTERED CLOUDS [Score: 37/100]
+ DATA QUALITY   : MEDIUM [75/100]
+ DEGRADED FEEDS : deribit
  CURRENT REGIME : Operational noise within standard ranges. No immediate systemic fracture.
 
  --- OPERATIONAL POSTURE (RULE-BASED REFERENCE HEURISTICS) ---
- [*] GRID BOTS    : PAUSED -> Dislocation risk elevated (overall 42.2, crypto 66). Reference: pause new grid bids.
+ [*] GRID BOTS    : PAUSED -> Staying paused: market feeds on fallback data, no step down on fallback data.
  [*] DIP BUYING   : DEFENSIVE -> Support looks fragile; falling-knife risk is elevated.
- [*] CRYPTO PERPS : HEAVY SHORT -> Negative perp funding (-25.1% APR). Potential short squeeze.
+ [*] CRYPTO PERPS : HEAVY SHORT -> Negative perp funding (-8.6% APR). Potential short squeeze.
  [*] SHORT VOLUME : NOMINAL -> Normal short volume share on SPY (42.2%).
  [*] COLLATERAL   : STABLE -> No meaningful central bank swap operations.
 
  --- 6 PILLARS ---
- [1] Market Volatility : Score 64/100 (VIX: 32.01 | MOVE: 103.81)
- [2] Crypto Leverage   : Score 66/100 (Funding: -25.1% APR | DVOL: 52.8%)
+ [1] Market Volatility : Score 67/100 (VIX: 33.2 | MOVE: 103.78)
+ [2] Crypto Leverage   : Score 31/100 (Funding: -8.6% APR | DVOL: 52.0%) [fallback: deribit]
  [3] Short Volume      : Score 0/100 (Short ratio: 42.2% (20261119))
  [4] Dollar Liquidity  : Score 42/100 (TGA: $892.3B | Swaps: $0.0B)
  [5] Credit Stress     : Score 49/100 (Filings: 18)
- [6] Odds and Ends     : Score 5/100 (Wiki Z: +0.39σ | Border: 15m)
+ [6] Odds and Ends     : Score 17/100 (Wiki Z: +0.4σ | Border: 45m)
 
  API: curl -sL https://open-market-weather.hartmut-nese.workers.dev/weather.json
  REPO: https://github.com/hartmutnese-stack/open-market-weather
