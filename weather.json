@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "version": "3.6.5",
-  "timestamp": "2026-11-20 18:30 UTC",
-  "generated_at": "2026-11-20T18:30:43Z",
-  "valid_until": "2026-11-20T21:00:43Z",
+  "timestamp": "2026-11-20 19:00 UTC",
+  "generated_at": "2026-11-20T19:00:51Z",
+  "valid_until": "2026-11-20T21:30:51Z",
   "run_status": "COMPLETE",
-  "run_duration_seconds": 3.61,
+  "run_duration_seconds": 4.27,
   "symbol": "⛅",
-  "composite_score": 32,
-  "composite_raw": 32.15,
-  "display_score": 32,
+  "composite_score": 42,
+  "composite_raw": 42.25,
+  "display_score": 42,
   "status": "SCATTERED CLOUDS",
   "desc": "Operational noise within standard ranges. No immediate systemic fracture.",
   "color": "#ffcc00",
@@ -60,33 +60,33 @@
   },
   "transition": {
     "previous_status": "CAUTION",
-    "candidate_status": "CAUTION",
+    "candidate_status": "PAUSED",
     "required_runs": 2,
     "cold_start": false,
     "confirmed_runs": 0,
     "recovering": false,
     "recovery_target": null,
-    "status_changed": false,
-    "market_status": "CAUTION",
+    "status_changed": true,
+    "market_status": "PAUSED",
     "clean_runs": 2
   },
   "tactical_posture": {
     "grid_bots": {
-      "status": "CAUTION",
-      "color": "#ffcc00",
-      "action": "Reference: wider grid bands (+15-25%), smaller sizes or leverage.",
+      "status": "PAUSED",
+      "color": "#ff0033",
+      "action": "Dislocation risk elevated (overall 42.2, crypto 66). Reference: pause new grid bids.",
       "hysteresis": false,
       "confirmed_runs": 0
     },
     "dip_buying": {
-      "status": "FAVORABLE",
-      "color": "#00ff66",
-      "action": "Orderly pullbacks. Liquidity supports absorption."
+      "status": "DEFENSIVE",
+      "color": "#ff6600",
+      "action": "Support looks fragile; falling-knife risk is elevated."
     },
     "crypto_perps": {
-      "status": "NOMINAL",
-      "color": "#00ff66",
-      "action": "Neutral baseline funding (+11.0% APR)."
+      "status": "HEAVY SHORT",
+      "color": "#ff6600",
+      "action": "Negative perp funding (-25.1% APR). Potential short squeeze."
     },
     "dark_pool": {
       "status": "NOMINAL",
@@ -101,16 +101,16 @@
   },
   "pillars": {
     "market_volatility": {
-      "score": 65,
-      "vix": 32.26,
-      "move_index": 103.8,
+      "score": 64,
+      "vix": 32.01,
+      "move_index": 103.81,
       "fallback": false
     },
     "crypto_leverage": {
-      "score": 14,
-      "btc_funding_apr": 11.0,
-      "btc_oi_mil": 2345.4,
-      "dvol_index": 51.5,
+      "score": 66,
+      "btc_funding_apr": -25.1,
+      "btc_oi_mil": 2262.2,
+      "dvol_index": 52.8,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
@@ -136,8 +136,8 @@
       "fallback": false
     },
     "odds_and_ends": {
-      "score": 6,
-      "wiki_z": 0.4,
+      "score": 5,
+      "wiki_z": 0.39,
       "wiki_articles_ok": 4,
       "border_wait_m": 15,
       "border_state": "OBSERVED",
@@ -146,16 +146,16 @@
       "cbp_fallback": false
     },
     "market_implied": {
-      "score": 65,
-      "vix": 32.26,
-      "move_index": 103.8,
+      "score": 64,
+      "vix": 32.01,
+      "move_index": 103.81,
       "fallback": false
     },
     "crypto_247": {
-      "score": 14,
-      "btc_funding_apr": 11.0,
-      "btc_oi_mil": 2345.4,
-      "dvol_index": 51.5,
+      "score": 66,
+      "btc_funding_apr": -25.1,
+      "btc_oi_mil": 2262.2,
+      "dvol_index": 52.8,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
@@ -181,8 +181,8 @@
       "fallback": false
     },
     "cognitive_physical": {
-      "score": 6,
-      "wiki_z": 0.4,
+      "score": 5,
+      "wiki_z": 0.39,
       "wiki_articles_ok": 4,
       "border_wait_m": 15,
       "border_state": "OBSERVED",
