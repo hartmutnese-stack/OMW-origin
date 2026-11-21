@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "version": "3.6.5",
-  "timestamp": "2026-11-21 18:30 UTC",
-  "generated_at": "2026-11-21T18:30:42Z",
-  "valid_until": "2026-11-21T21:00:42Z",
+  "timestamp": "2026-11-21 19:00 UTC",
+  "generated_at": "2026-11-21T19:00:49Z",
+  "valid_until": "2026-11-21T21:30:49Z",
   "run_status": "COMPLETE",
-  "run_duration_seconds": 3.82,
+  "run_duration_seconds": 3.85,
   "symbol": "🌧️",
-  "composite_score": 50,
-  "composite_raw": 50.3,
-  "display_score": 50,
+  "composite_score": 52,
+  "composite_raw": 52.5,
+  "display_score": 52,
   "status": "SQUALL / DOWNPOUR",
   "desc": "Elevated friction: notable divergence in crypto leverage, options or liquidity plumbing.",
   "color": "#ff6600",
@@ -84,9 +84,9 @@
       "action": "Support looks fragile; falling-knife risk is elevated."
     },
     "crypto_perps": {
-      "status": "NOMINAL",
-      "color": "#00ff66",
-      "action": "Moderate derivatives bias (-2.2% APR)."
+      "status": "HEAVY SHORT",
+      "color": "#ff6600",
+      "action": "Negative perp funding (-10.7% APR). Potential short squeeze."
     },
     "dark_pool": {
       "status": "HIGH",
@@ -107,9 +107,9 @@
       "fallback": false
     },
     "crypto_leverage": {
-      "score": 31,
-      "btc_funding_apr": -2.2,
-      "btc_oi_mil": 2264.2,
+      "score": 42,
+      "btc_funding_apr": -10.7,
+      "btc_oi_mil": 2261.3,
       "dvol_index": 58.5,
       "fallback": false,
       "hl_fallback": false,
@@ -152,9 +152,9 @@
       "fallback": false
     },
     "crypto_247": {
-      "score": 31,
-      "btc_funding_apr": -2.2,
-      "btc_oi_mil": 2264.2,
+      "score": 42,
+      "btc_funding_apr": -10.7,
+      "btc_oi_mil": 2261.3,
       "dvol_index": 58.5,
       "fallback": false,
       "hl_fallback": false,
