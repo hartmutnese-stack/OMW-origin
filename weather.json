@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
   "version": "3.6.5",
-  "timestamp": "2026-11-21 16:00 UTC",
-  "generated_at": "2026-11-21T16:00:51Z",
-  "valid_until": "2026-11-21T18:30:51Z",
+  "timestamp": "2026-11-21 16:30 UTC",
+  "generated_at": "2026-11-21T16:30:41Z",
+  "valid_until": "2026-11-21T19:00:41Z",
   "run_status": "COMPLETE",
-  "run_duration_seconds": 3.86,
-  "symbol": "🌧️",
-  "composite_score": 50,
-  "composite_raw": 50.0,
-  "display_score": 50,
-  "status": "SQUALL / DOWNPOUR",
-  "desc": "Elevated friction: notable divergence in crypto leverage, options or liquidity plumbing.",
-  "color": "#ff6600",
+  "run_duration_seconds": 4.28,
+  "symbol": "⛅",
+  "composite_score": 49,
+  "composite_raw": 49.8,
+  "display_score": 49,
+  "status": "SCATTERED CLOUDS",
+  "desc": "Operational noise within standard ranges. No immediate systemic fracture.",
+  "color": "#ffcc00",
   "data_quality": {
     "status": "HIGH",
     "score": 100,
@@ -55,8 +55,7 @@
       "detail": "4/6 articles usable"
     },
     "cbp": {
-      "status": "CLOSED",
-      "detail": "Laredo feed reachable; no delay value"
+      "status": "OK"
     }
   },
   "transition": {
@@ -87,7 +86,7 @@
     "crypto_perps": {
       "status": "NOMINAL",
       "color": "#00ff66",
-      "action": "Moderate derivatives bias (-6.4% APR)."
+      "action": "Moderate derivatives bias (-4.0% APR)."
     },
     "dark_pool": {
       "status": "HIGH",
@@ -95,9 +94,9 @@
       "action": "High short volume share on SPY (64.2%)."
     },
     "collateral": {
-      "status": "WATCH",
-      "color": "#ffcc00",
-      "action": "Swap operations quiet, but overall market friction is elevated."
+      "status": "STABLE",
+      "color": "#00ff66",
+      "action": "No meaningful central bank swap operations."
     }
   },
   "pillars": {
@@ -108,10 +107,10 @@
       "fallback": false
     },
     "crypto_leverage": {
-      "score": 34,
-      "btc_funding_apr": -6.4,
-      "btc_oi_mil": 2250.5,
-      "dvol_index": 58.5,
+      "score": 32,
+      "btc_funding_apr": -4.0,
+      "btc_oi_mil": 2255.9,
+      "dvol_index": 58.9,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
@@ -137,11 +136,11 @@
       "fallback": false
     },
     "odds_and_ends": {
-      "score": 5,
+      "score": 7,
       "wiki_z": 0.4,
       "wiki_articles_ok": 4,
-      "border_wait_m": null,
-      "border_state": "CLOSED",
+      "border_wait_m": 20,
+      "border_state": "OBSERVED",
       "fallback": false,
       "wiki_fallback": false,
       "cbp_fallback": false
@@ -153,10 +152,10 @@
       "fallback": false
     },
     "crypto_247": {
-      "score": 34,
-      "btc_funding_apr": -6.4,
-      "btc_oi_mil": 2250.5,
-      "dvol_index": 58.5,
+      "score": 32,
+      "btc_funding_apr": -4.0,
+      "btc_oi_mil": 2255.9,
+      "dvol_index": 58.9,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
@@ -182,11 +181,11 @@
       "fallback": false
     },
     "cognitive_physical": {
-      "score": 5,
+      "score": 7,
       "wiki_z": 0.4,
       "wiki_articles_ok": 4,
-      "border_wait_m": null,
-      "border_state": "CLOSED",
+      "border_wait_m": 20,
+      "border_state": "OBSERVED",
       "fallback": false,
       "wiki_fallback": false,
       "cbp_fallback": false
