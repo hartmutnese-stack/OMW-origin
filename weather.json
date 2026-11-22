@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
   "version": "3.6.5",
-  "timestamp": "2026-11-22 06:00 UTC",
-  "generated_at": "2026-11-22T06:00:49Z",
-  "valid_until": "2026-11-22T08:30:49Z",
+  "timestamp": "2026-11-22 06:30 UTC",
+  "generated_at": "2026-11-22T06:30:38Z",
+  "valid_until": "2026-11-22T09:00:38Z",
   "run_status": "COMPLETE",
-  "run_duration_seconds": 4.64,
-  "symbol": "⛅",
-  "composite_score": 49,
-  "composite_raw": 49.9,
-  "display_score": 49,
-  "status": "SCATTERED CLOUDS",
-  "desc": "Operational noise within standard ranges. No immediate systemic fracture.",
-  "color": "#ffcc00",
+  "run_duration_seconds": 3.59,
+  "symbol": "🌧️",
+  "composite_score": 50,
+  "composite_raw": 50.1,
+  "display_score": 50,
+  "status": "SQUALL / DOWNPOUR",
+  "desc": "Elevated friction: notable divergence in crypto leverage, options or liquidity plumbing.",
+  "color": "#ff6600",
   "data_quality": {
     "status": "HIGH",
     "score": 100,
@@ -87,7 +87,7 @@
     "crypto_perps": {
       "status": "NOMINAL",
       "color": "#00ff66",
-      "action": "Moderate derivatives bias (-2.9% APR)."
+      "action": "Moderate derivatives bias (-5.4% APR)."
     },
     "dark_pool": {
       "status": "HIGH",
@@ -95,9 +95,9 @@
       "action": "High short volume share on SPY (64.2%)."
     },
     "collateral": {
-      "status": "STABLE",
-      "color": "#00ff66",
-      "action": "No meaningful central bank swap operations."
+      "status": "WATCH",
+      "color": "#ffcc00",
+      "action": "Swap operations quiet, but overall market friction is elevated."
     }
   },
   "pillars": {
@@ -108,10 +108,10 @@
       "fallback": false
     },
     "crypto_leverage": {
-      "score": 34,
-      "btc_funding_apr": -2.9,
-      "btc_oi_mil": 2226.4,
-      "dvol_index": 60.8,
+      "score": 35,
+      "btc_funding_apr": -5.4,
+      "btc_oi_mil": 2211.0,
+      "dvol_index": 60.6,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
@@ -153,10 +153,10 @@
       "fallback": false
     },
     "crypto_247": {
-      "score": 34,
-      "btc_funding_apr": -2.9,
-      "btc_oi_mil": 2226.4,
-      "dvol_index": 60.8,
+      "score": 35,
+      "btc_funding_apr": -5.4,
+      "btc_oi_mil": 2211.0,
+      "dvol_index": 60.6,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
