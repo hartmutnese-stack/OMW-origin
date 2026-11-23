@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "version": "3.6.5",
-  "timestamp": "2026-11-23 15:30 UTC",
-  "generated_at": "2026-11-23T15:30:52Z",
-  "valid_until": "2026-11-23T18:00:52Z",
+  "timestamp": "2026-11-23 16:00 UTC",
+  "generated_at": "2026-11-23T16:00:46Z",
+  "valid_until": "2026-11-23T18:30:46Z",
   "run_status": "COMPLETE",
-  "run_duration_seconds": 4.13,
+  "run_duration_seconds": 2.66,
   "symbol": "⛅",
-  "composite_score": 42,
-  "composite_raw": 42.2,
-  "display_score": 42,
+  "composite_score": 43,
+  "composite_raw": 43.2,
+  "display_score": 43,
   "status": "SCATTERED CLOUDS",
   "desc": "Operational noise within standard ranges. No immediate systemic fracture.",
   "color": "#ffcc00",
@@ -86,7 +86,7 @@
     "crypto_perps": {
       "status": "NOMINAL",
       "color": "#00ff66",
-      "action": "Moderate derivatives bias (+6.2% APR)."
+      "action": "Moderate derivatives bias (-0.3% APR)."
     },
     "dark_pool": {
       "status": "HIGH",
@@ -102,15 +102,15 @@
   "pillars": {
     "market_volatility": {
       "score": 54,
-      "vix": 27.22,
-      "move_index": 104.58,
+      "vix": 27.26,
+      "move_index": 104.63,
       "fallback": false
     },
     "crypto_leverage": {
-      "score": 13,
-      "btc_funding_apr": 6.2,
-      "btc_oi_mil": 2360.6,
-      "dvol_index": 47.9,
+      "score": 18,
+      "btc_funding_apr": -0.3,
+      "btc_oi_mil": 2356.7,
+      "dvol_index": 47.6,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
@@ -147,15 +147,15 @@
     },
     "market_implied": {
       "score": 54,
-      "vix": 27.22,
-      "move_index": 104.58,
+      "vix": 27.26,
+      "move_index": 104.63,
       "fallback": false
     },
     "crypto_247": {
-      "score": 13,
-      "btc_funding_apr": 6.2,
-      "btc_oi_mil": 2360.6,
-      "dvol_index": 47.9,
+      "score": 18,
+      "btc_funding_apr": -0.3,
+      "btc_oi_mil": 2356.7,
+      "dvol_index": 47.6,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
