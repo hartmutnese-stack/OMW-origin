@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "version": "3.6.5",
-  "timestamp": "2026-11-23 20:30 UTC",
-  "generated_at": "2026-11-23T20:30:48Z",
-  "valid_until": "2026-11-23T23:00:48Z",
+  "timestamp": "2026-11-23 21:00 UTC",
+  "generated_at": "2026-11-23T21:00:50Z",
+  "valid_until": "2026-11-23T23:30:50Z",
   "run_status": "COMPLETE",
-  "run_duration_seconds": 4.15,
+  "run_duration_seconds": 4.9,
   "symbol": "⛅",
-  "composite_score": 41,
-  "composite_raw": 41.8,
-  "display_score": 41,
+  "composite_score": 38,
+  "composite_raw": 38.0,
+  "display_score": 38,
   "status": "SCATTERED CLOUDS",
   "desc": "Operational noise within standard ranges. No immediate systemic fracture.",
   "color": "#ffcc00",
@@ -102,15 +102,15 @@
   "pillars": {
     "market_volatility": {
       "score": 51,
-      "vix": 26.89,
-      "move_index": 101.96,
+      "vix": 26.63,
+      "move_index": 101.44,
       "fallback": false
     },
     "crypto_leverage": {
-      "score": 14,
+      "score": 15,
       "btc_funding_apr": 11.0,
-      "btc_oi_mil": 2275.0,
-      "dvol_index": 51.7,
+      "btc_oi_mil": 2278.1,
+      "dvol_index": 52.1,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
@@ -122,9 +122,9 @@
       "fallback": false
     },
     "dollar_liquidity": {
-      "score": 35,
-      "tga_billions": 891.2,
-      "tga_5d_flow": -33.4,
+      "score": 15,
+      "tga_billions": 880.8,
+      "tga_5d_flow": -15.0,
       "swaps_billions": 0.0,
       "fallback": false,
       "tga_fallback": false,
@@ -147,15 +147,15 @@
     },
     "market_implied": {
       "score": 51,
-      "vix": 26.89,
-      "move_index": 101.96,
+      "vix": 26.63,
+      "move_index": 101.44,
       "fallback": false
     },
     "crypto_247": {
-      "score": 14,
+      "score": 15,
       "btc_funding_apr": 11.0,
-      "btc_oi_mil": 2275.0,
-      "dvol_index": 51.7,
+      "btc_oi_mil": 2278.1,
+      "dvol_index": 52.1,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
@@ -167,9 +167,9 @@
       "fallback": false
     },
     "liquidity_plumbing": {
-      "score": 35,
-      "tga_billions": 891.2,
-      "tga_5d_flow": -33.4,
+      "score": 15,
+      "tga_billions": 880.8,
+      "tga_5d_flow": -15.0,
       "swaps_billions": 0.0,
       "fallback": false,
       "tga_fallback": false,
