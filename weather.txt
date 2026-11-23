@@ -1,7 +1,7 @@
 
 ======================================================================
  OPEN MARKET WEATHER OBSERVATORY // HYBRID MACRO & CRYPTO // v3.6.5
- 2026-11-23 14:30 UTC // COMPLETE // VALID UNTIL 2026-11-23T17:00:43Z
+ 2026-11-23 15:00 UTC // COMPLETE // VALID UNTIL 2026-11-23T17:30:52Z
 ======================================================================
 
  SCOPE: Experimental rule-based macro regime observer.
@@ -14,13 +14,13 @@
  --- OPERATIONAL POSTURE (RULE-BASED REFERENCE HEURISTICS) ---
  [*] GRID BOTS    : CAUTION -> Reference: wider grid bands (+15-25%), smaller sizes or leverage.
  [*] DIP BUYING   : DEFENSIVE -> Support looks fragile; falling-knife risk is elevated.
- [*] CRYPTO PERPS : NOMINAL -> Neutral baseline funding (+10.8% APR).
+ [*] CRYPTO PERPS : NOMINAL -> Neutral baseline funding (+11.0% APR).
  [*] SHORT VOLUME : HIGH -> High short volume share on SPY (64.2%).
  [*] COLLATERAL   : STABLE -> No meaningful central bank swap operations.
 
  --- 6 PILLARS ---
- [1] Market Volatility : Score 58/100 (VIX: 27.49 | MOVE: 109.48)
- [2] Crypto Leverage   : Score 11/100 (Funding: +10.8% APR | DVOL: 48.7%)
+ [1] Market Volatility : Score 57/100 (VIX: 28.45 | MOVE: 105.42)
+ [2] Crypto Leverage   : Score 11/100 (Funding: +11.0% APR | DVOL: 48.1%)
  [3] Short Volume      : Score 89/100 (Short ratio: 64.2% (20261120))
  [4] Dollar Liquidity  : Score 35/100 (TGA: $891.2B | Swaps: $0.0B)
  [5] Credit Stress     : Score 53/100 (Filings: 19)
