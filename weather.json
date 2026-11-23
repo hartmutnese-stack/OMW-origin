@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "version": "3.6.5",
-  "timestamp": "2026-11-23 08:30 UTC",
-  "generated_at": "2026-11-23T08:30:46Z",
-  "valid_until": "2026-11-23T11:00:46Z",
+  "timestamp": "2026-11-23 09:00 UTC",
+  "generated_at": "2026-11-23T09:00:51Z",
+  "valid_until": "2026-11-23T11:30:51Z",
   "run_status": "COMPLETE",
-  "run_duration_seconds": 7.04,
+  "run_duration_seconds": 4.85,
   "symbol": "⛅",
   "composite_score": 44,
   "composite_raw": 44.4,
@@ -87,7 +87,7 @@
     "crypto_perps": {
       "status": "NOMINAL",
       "color": "#00ff66",
-      "action": "Neutral baseline funding (+11.0% APR)."
+      "action": "Neutral baseline funding (+10.6% APR)."
     },
     "dark_pool": {
       "status": "HIGH",
@@ -103,15 +103,15 @@
   "pillars": {
     "market_volatility": {
       "score": 64,
-      "vix": 31.36,
+      "vix": 31.12,
       "move_index": 106.31,
       "fallback": false
     },
     "crypto_leverage": {
       "score": 14,
-      "btc_funding_apr": 11.0,
-      "btc_oi_mil": 2306.5,
-      "dvol_index": 51.3,
+      "btc_funding_apr": 10.6,
+      "btc_oi_mil": 2284.3,
+      "dvol_index": 51.6,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
@@ -148,15 +148,15 @@
     },
     "market_implied": {
       "score": 64,
-      "vix": 31.36,
+      "vix": 31.12,
       "move_index": 106.31,
       "fallback": false
     },
     "crypto_247": {
       "score": 14,
-      "btc_funding_apr": 11.0,
-      "btc_oi_mil": 2306.5,
-      "dvol_index": 51.3,
+      "btc_funding_apr": 10.6,
+      "btc_oi_mil": 2284.3,
+      "dvol_index": 51.6,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
