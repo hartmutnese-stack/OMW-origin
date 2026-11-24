@@ -1,29 +1,31 @@
 {
   "schema_version": 1,
   "version": "3.6.5",
-  "timestamp": "2026-11-24 17:00 UTC",
-  "generated_at": "2026-11-24T17:00:49Z",
-  "valid_until": "2026-11-24T19:30:49Z",
-  "run_status": "COMPLETE",
-  "run_duration_seconds": 3.68,
+  "timestamp": "2026-11-24 17:30 UTC",
+  "generated_at": "2026-11-24T17:30:39Z",
+  "valid_until": "2026-11-24T20:00:39Z",
+  "run_status": "DEGRADED",
+  "run_duration_seconds": 3.98,
   "symbol": "⛅",
-  "composite_score": 27,
-  "composite_raw": 27.95,
-  "display_score": 27,
+  "composite_score": 28,
+  "composite_raw": 28.5,
+  "display_score": 28,
   "status": "SCATTERED CLOUDS",
   "desc": "Operational noise within standard ranges. No immediate systemic fracture.",
   "color": "#ffcc00",
   "data_quality": {
     "status": "HIGH",
-    "score": 100,
-    "fallback_count": 0,
+    "score": 90,
+    "fallback_count": 1,
     "stale_count": 0,
-    "degraded_feeds": []
+    "degraded_feeds": [
+      "finra"
+    ]
   },
   "fallback_flags": {
     "market_volatility": false,
     "crypto_leverage": false,
-    "short_volume": false,
+    "short_volume": true,
     "dollar_liquidity": false,
     "credit_stress": false,
     "odds_and_ends": false
@@ -39,7 +41,8 @@
       "status": "OK"
     },
     "finra": {
-      "status": "OK"
+      "status": "FALLBACK",
+      "error_type": "NO_RECENT_FILE"
     },
     "tga": {
       "status": "OK"
@@ -68,30 +71,30 @@
     "recovery_target": null,
     "status_changed": false,
     "market_status": "CAUTION",
-    "clean_runs": 2
+    "clean_runs": 0
   },
   "tactical_posture": {
     "grid_bots": {
       "status": "CAUTION",
       "color": "#ffcc00",
-      "action": "Reference: wider grid bands (+15-25%), smaller sizes or leverage.",
+      "action": "Reference: wider grid bands (+15-25%). Upstream data quality is degraded.",
       "hysteresis": false,
       "confirmed_runs": 0
     },
     "dip_buying": {
-      "status": "FAVORABLE",
-      "color": "#00ff66",
-      "action": "Orderly pullbacks. Liquidity supports absorption."
+      "status": "DEFENSIVE",
+      "color": "#ff6600",
+      "action": "Support looks fragile; falling-knife risk is elevated."
     },
     "crypto_perps": {
       "status": "NOMINAL",
       "color": "#00ff66",
-      "action": "Moderate derivatives bias (-3.6% APR)."
+      "action": "Moderate derivatives bias (+1.0% APR)."
     },
     "dark_pool": {
       "status": "NOMINAL",
       "color": "#00ff66",
-      "action": "Normal short volume share on SPY (41.4%)."
+      "action": "Normal short volume share on SPY (49.0%)."
     },
     "collateral": {
       "status": "STABLE",
@@ -101,25 +104,25 @@
   },
   "pillars": {
     "market_volatility": {
-      "score": 54,
-      "vix": 28.31,
-      "move_index": 100.93,
+      "score": 51,
+      "vix": 27.06,
+      "move_index": 100.9,
       "fallback": false
     },
     "crypto_leverage": {
-      "score": 28,
-      "btc_funding_apr": -3.6,
-      "btc_oi_mil": 2234.2,
-      "dvol_index": 55.0,
+      "score": 24,
+      "btc_funding_apr": 1.0,
+      "btc_oi_mil": 2195.7,
+      "dvol_index": 54.4,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
     },
     "short_volume": {
-      "score": 0,
-      "spy_short_volume_ratio": 41.4,
-      "report_date": "20261123",
-      "fallback": false
+      "score": 13,
+      "spy_short_volume_ratio": 49.0,
+      "report_date": "Fallback",
+      "fallback": true
     },
     "dollar_liquidity": {
       "score": 15,
@@ -139,32 +142,32 @@
       "score": 6,
       "wiki_z": 0.47,
       "wiki_articles_ok": 4,
-      "border_wait_m": 0,
+      "border_wait_m": 15,
       "border_state": "OBSERVED",
       "fallback": false,
       "wiki_fallback": false,
       "cbp_fallback": false
     },
     "market_implied": {
-      "score": 54,
-      "vix": 28.31,
-      "move_index": 100.93,
+      "score": 51,
+      "vix": 27.06,
+      "move_index": 100.9,
       "fallback": false
     },
     "crypto_247": {
-      "score": 28,
-      "btc_funding_apr": -3.6,
-      "btc_oi_mil": 2234.2,
-      "dvol_index": 55.0,
+      "score": 24,
+      "btc_funding_apr": 1.0,
+      "btc_oi_mil": 2195.7,
+      "dvol_index": 54.4,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
     },
     "dark_pool_finra": {
-      "score": 0,
-      "spy_short_volume_ratio": 41.4,
-      "report_date": "20261123",
-      "fallback": false
+      "score": 13,
+      "spy_short_volume_ratio": 49.0,
+      "report_date": "Fallback",
+      "fallback": true
     },
     "liquidity_plumbing": {
       "score": 15,
@@ -184,7 +187,7 @@
       "score": 6,
       "wiki_z": 0.47,
       "wiki_articles_ok": 4,
-      "border_wait_m": 0,
+      "border_wait_m": 15,
       "border_state": "OBSERVED",
       "fallback": false,
       "wiki_fallback": false,
