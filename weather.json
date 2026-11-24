@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
   "version": "3.6.5",
-  "timestamp": "2026-11-24 03:00 UTC",
-  "generated_at": "2026-11-24T03:00:50Z",
-  "valid_until": "2026-11-24T05:30:50Z",
+  "timestamp": "2026-11-24 03:30 UTC",
+  "generated_at": "2026-11-24T03:30:48Z",
+  "valid_until": "2026-11-24T06:00:48Z",
   "run_status": "COMPLETE",
-  "run_duration_seconds": 4.44,
-  "symbol": "☀️",
-  "composite_score": 24,
-  "composite_raw": 24.95,
-  "display_score": 24,
-  "status": "CLEAR SKIES",
-  "desc": "Systemic friction minimal. Normal market conditions across macro and crypto feeds.",
-  "color": "#00ff66",
+  "run_duration_seconds": 4.27,
+  "symbol": "⛅",
+  "composite_score": 26,
+  "composite_raw": 26.15,
+  "display_score": 26,
+  "status": "SCATTERED CLOUDS",
+  "desc": "Operational noise within standard ranges. No immediate systemic fracture.",
+  "color": "#ffcc00",
   "data_quality": {
     "status": "HIGH",
     "score": 100,
@@ -86,7 +86,7 @@
     "crypto_perps": {
       "status": "NOMINAL",
       "color": "#00ff66",
-      "action": "Moderate derivatives bias (+5.4% APR)."
+      "action": "Moderate derivatives bias (-2.1% APR)."
     },
     "dark_pool": {
       "status": "NOMINAL",
@@ -107,10 +107,10 @@
       "fallback": false
     },
     "crypto_leverage": {
-      "score": 20,
-      "btc_funding_apr": 5.4,
-      "btc_oi_mil": 2234.0,
-      "dvol_index": 53.6,
+      "score": 26,
+      "btc_funding_apr": -2.1,
+      "btc_oi_mil": 2218.8,
+      "dvol_index": 54.4,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
@@ -152,10 +152,10 @@
       "fallback": false
     },
     "crypto_247": {
-      "score": 20,
-      "btc_funding_apr": 5.4,
-      "btc_oi_mil": 2234.0,
-      "dvol_index": 53.6,
+      "score": 26,
+      "btc_funding_apr": -2.1,
+      "btc_oi_mil": 2218.8,
+      "dvol_index": 54.4,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
