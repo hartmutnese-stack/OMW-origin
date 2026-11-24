@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "version": "3.6.5",
-  "timestamp": "2026-11-24 21:30 UTC",
-  "generated_at": "2026-11-24T21:30:39Z",
-  "valid_until": "2026-11-25T00:00:39Z",
+  "timestamp": "2026-11-24 22:00 UTC",
+  "generated_at": "2026-11-24T22:00:48Z",
+  "valid_until": "2026-11-25T00:30:48Z",
   "run_status": "COMPLETE",
-  "run_duration_seconds": 2.94,
+  "run_duration_seconds": 3.11,
   "symbol": "⛅",
-  "composite_score": 31,
-  "composite_raw": 31.8,
-  "display_score": 31,
+  "composite_score": 33,
+  "composite_raw": 33.95,
+  "display_score": 33,
   "status": "SCATTERED CLOUDS",
   "desc": "Operational noise within standard ranges. No immediate systemic fracture.",
   "color": "#ffcc00",
@@ -103,14 +103,14 @@
     "market_volatility": {
       "score": 49,
       "vix": 26.36,
-      "move_index": 98.91,
+      "move_index": 98.84,
       "fallback": false
     },
     "crypto_leverage": {
-      "score": 32,
+      "score": 33,
       "btc_funding_apr": -8.7,
-      "btc_oi_mil": 2130.1,
-      "dvol_index": 53.3,
+      "btc_oi_mil": 2127.1,
+      "dvol_index": 53.4,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
@@ -131,8 +131,8 @@
       "swaps_fallback": false
     },
     "credit_stress": {
-      "score": 58,
-      "sec_8k_filings": 20,
+      "score": 71,
+      "sec_8k_filings": 23,
       "fallback": false
     },
     "odds_and_ends": {
@@ -148,14 +148,14 @@
     "market_implied": {
       "score": 49,
       "vix": 26.36,
-      "move_index": 98.91,
+      "move_index": 98.84,
       "fallback": false
     },
     "crypto_247": {
-      "score": 32,
+      "score": 33,
       "btc_funding_apr": -8.7,
-      "btc_oi_mil": 2130.1,
-      "dvol_index": 53.3,
+      "btc_oi_mil": 2127.1,
+      "dvol_index": 53.4,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
@@ -176,8 +176,8 @@
       "swaps_fallback": false
     },
     "credit_statutory": {
-      "score": 58,
-      "sec_8k_filings": 20,
+      "score": 71,
+      "sec_8k_filings": 23,
       "fallback": false
     },
     "cognitive_physical": {
