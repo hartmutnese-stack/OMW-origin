@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "version": "3.6.5",
-  "timestamp": "2026-11-24 06:00 UTC",
-  "generated_at": "2026-11-24T06:00:46Z",
-  "valid_until": "2026-11-24T08:30:46Z",
+  "timestamp": "2026-11-24 06:30 UTC",
+  "generated_at": "2026-11-24T06:30:37Z",
+  "valid_until": "2026-11-24T09:00:37Z",
   "run_status": "COMPLETE",
-  "run_duration_seconds": 3.9,
+  "run_duration_seconds": 2.87,
   "symbol": "☀️",
   "composite_score": 24,
-  "composite_raw": 24.15,
+  "composite_raw": 24.35,
   "display_score": 24,
   "status": "CLEAR SKIES",
   "desc": "Systemic friction minimal. Normal market conditions across macro and crypto feeds.",
@@ -55,7 +55,8 @@
       "detail": "4/6 articles usable"
     },
     "cbp": {
-      "status": "OK"
+      "status": "CLOSED",
+      "detail": "Laredo feed reachable; no delay value"
     }
   },
   "transition": {
@@ -86,7 +87,7 @@
     "crypto_perps": {
       "status": "NOMINAL",
       "color": "#00ff66",
-      "action": "Neutral baseline funding (+11.0% APR)."
+      "action": "Neutral baseline funding (+8.2% APR)."
     },
     "dark_pool": {
       "status": "NOMINAL",
@@ -107,9 +108,9 @@
       "fallback": false
     },
     "crypto_leverage": {
-      "score": 16,
-      "btc_funding_apr": 11.0,
-      "btc_oi_mil": 2237.0,
+      "score": 17,
+      "btc_funding_apr": 8.2,
+      "btc_oi_mil": 2231.5,
       "dvol_index": 52.9,
       "fallback": false,
       "hl_fallback": false,
@@ -139,8 +140,8 @@
       "score": 6,
       "wiki_z": 0.47,
       "wiki_articles_ok": 4,
-      "border_wait_m": 5,
-      "border_state": "OBSERVED",
+      "border_wait_m": null,
+      "border_state": "CLOSED",
       "fallback": false,
       "wiki_fallback": false,
       "cbp_fallback": false
@@ -152,9 +153,9 @@
       "fallback": false
     },
     "crypto_247": {
-      "score": 16,
-      "btc_funding_apr": 11.0,
-      "btc_oi_mil": 2237.0,
+      "score": 17,
+      "btc_funding_apr": 8.2,
+      "btc_oi_mil": 2231.5,
       "dvol_index": 52.9,
       "fallback": false,
       "hl_fallback": false,
@@ -184,8 +185,8 @@
       "score": 6,
       "wiki_z": 0.47,
       "wiki_articles_ok": 4,
-      "border_wait_m": 5,
-      "border_state": "OBSERVED",
+      "border_wait_m": null,
+      "border_state": "CLOSED",
       "fallback": false,
       "wiki_fallback": false,
       "cbp_fallback": false
