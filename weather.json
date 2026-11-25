@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
   "version": "3.6.5",
-  "timestamp": "2026-11-25 23:01 UTC",
-  "generated_at": "2026-11-25T23:01:11Z",
-  "valid_until": "2026-11-26T01:31:11Z",
+  "timestamp": "2026-11-25 23:31 UTC",
+  "generated_at": "2026-11-25T23:31:01Z",
+  "valid_until": "2026-11-26T02:01:01Z",
   "run_status": "DEGRADED",
-  "run_duration_seconds": 24.25,
-  "symbol": "⛅",
-  "composite_score": 25,
-  "composite_raw": 25.15,
-  "display_score": 25,
-  "status": "SCATTERED CLOUDS",
-  "desc": "Operational noise within standard ranges. No immediate systemic fracture.",
-  "color": "#ffcc00",
+  "run_duration_seconds": 25.07,
+  "symbol": "☀️",
+  "composite_score": 24,
+  "composite_raw": 24.75,
+  "display_score": 24,
+  "status": "CLEAR SKIES",
+  "desc": "Systemic friction minimal. Normal market conditions across macro and crypto feeds.",
+  "color": "#00ff66",
   "data_quality": {
     "status": "MEDIUM",
     "score": 85,
@@ -112,8 +112,8 @@
     "crypto_leverage": {
       "score": 15,
       "btc_funding_apr": 11.0,
-      "btc_oi_mil": 2244.9,
-      "dvol_index": 52.1,
+      "btc_oi_mil": 2252.0,
+      "dvol_index": 52.5,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
@@ -139,10 +139,10 @@
       "fallback": false
     },
     "odds_and_ends": {
-      "score": 9,
+      "score": 5,
       "wiki_z": 0.24,
       "wiki_articles_ok": 4,
-      "border_wait_m": 30,
+      "border_wait_m": 20,
       "border_state": "OBSERVED",
       "fallback": false,
       "wiki_fallback": false,
@@ -157,8 +157,8 @@
     "crypto_247": {
       "score": 15,
       "btc_funding_apr": 11.0,
-      "btc_oi_mil": 2244.9,
-      "dvol_index": 52.1,
+      "btc_oi_mil": 2252.0,
+      "dvol_index": 52.5,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
@@ -184,10 +184,10 @@
       "fallback": false
     },
     "cognitive_physical": {
-      "score": 9,
+      "score": 5,
       "wiki_z": 0.24,
       "wiki_articles_ok": 4,
-      "border_wait_m": 30,
+      "border_wait_m": 20,
       "border_state": "OBSERVED",
       "fallback": false,
       "wiki_fallback": false,

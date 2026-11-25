@@ -1,16 +1,16 @@
 
 ======================================================================
  OPEN MARKET WEATHER OBSERVATORY // HYBRID MACRO & CRYPTO // v3.6.5
- 2026-11-25 23:01 UTC // DEGRADED // VALID UNTIL 2026-11-26T01:31:11Z
+ 2026-11-25 23:31 UTC // DEGRADED // VALID UNTIL 2026-11-26T02:01:01Z
 ======================================================================
 
  SCOPE: Experimental rule-based macro regime observer.
  NOTICE: Purely heuristic. Not an investment signal, solicitation, or advice.
 
- OVERALL STATUS : SCATTERED CLOUDS [Score: 25/100]
+ OVERALL STATUS : CLEAR SKIES [Score: 24/100]
  DATA QUALITY   : MEDIUM [85/100]
  DEGRADED FEEDS : tga
- CURRENT REGIME : Operational noise within standard ranges. No immediate systemic fracture.
+ CURRENT REGIME : Systemic friction minimal. Normal market conditions across macro and crypto feeds.
 
  --- OPERATIONAL POSTURE (RULE-BASED REFERENCE HEURISTICS) ---
  [*] GRID BOTS    : CAUTION -> Reference: wider grid bands (+15-25%). Upstream data quality is degraded.
@@ -21,11 +21,11 @@
 
  --- 6 PILLARS ---
  [1] Market Volatility : Score 52/100 (VIX: 28.29 | MOVE: 97.54)
- [2] Crypto Leverage   : Score 15/100 (Funding: +11.0% APR | DVOL: 52.1%)
+ [2] Crypto Leverage   : Score 15/100 (Funding: +11.0% APR | DVOL: 52.5%)
  [3] Short Volume      : Score 1/100 (Short ratio: 46.7% (20261125))
  [4] Dollar Liquidity  : Score 10/100 (TGA: $850.0B | Swaps: $0.0B) [fallback: tga]
  [5] Credit Stress     : Score 58/100 (Filings: 20)
- [6] Odds and Ends     : Score 9/100 (Wiki Z: +0.24σ | Border: 30m)
+ [6] Odds and Ends     : Score 5/100 (Wiki Z: +0.24σ | Border: 20m)
 
  API: curl -sL https://open-market-weather.hartmut-nese.workers.dev/weather.json
  REPO: https://github.com/hartmutnese-stack/open-market-weather
