@@ -1,30 +1,32 @@
 {
   "schema_version": 1,
   "version": "3.6.5",
-  "timestamp": "2026-11-26 23:00 UTC",
-  "generated_at": "2026-11-26T23:00:50Z",
-  "valid_until": "2026-11-27T01:30:50Z",
-  "run_status": "COMPLETE",
-  "run_duration_seconds": 3.74,
+  "timestamp": "2026-11-26 23:31 UTC",
+  "generated_at": "2026-11-26T23:31:02Z",
+  "valid_until": "2026-11-27T02:01:02Z",
+  "run_status": "DEGRADED",
+  "run_duration_seconds": 24.73,
   "symbol": "⛅",
-  "composite_score": 37,
-  "composite_raw": 37.55,
-  "display_score": 37,
+  "composite_score": 25,
+  "composite_raw": 25.55,
+  "display_score": 25,
   "status": "SCATTERED CLOUDS",
   "desc": "Operational noise within standard ranges. No immediate systemic fracture.",
   "color": "#ffcc00",
   "data_quality": {
-    "status": "HIGH",
-    "score": 100,
-    "fallback_count": 0,
+    "status": "MEDIUM",
+    "score": 85,
+    "fallback_count": 1,
     "stale_count": 0,
-    "degraded_feeds": []
+    "degraded_feeds": [
+      "tga"
+    ]
   },
   "fallback_flags": {
     "market_volatility": false,
     "crypto_leverage": false,
     "short_volume": false,
-    "dollar_liquidity": false,
+    "dollar_liquidity": true,
     "credit_stress": false,
     "odds_and_ends": false
   },
@@ -42,7 +44,8 @@
       "status": "OK"
     },
     "tga": {
-      "status": "OK"
+      "status": "FALLBACK",
+      "error_type": "TIMEOUT"
     },
     "ny_fed": {
       "status": "OK"
@@ -68,25 +71,25 @@
     "recovery_target": null,
     "status_changed": false,
     "market_status": "CAUTION",
-    "clean_runs": 2
+    "clean_runs": 0
   },
   "tactical_posture": {
     "grid_bots": {
       "status": "CAUTION",
       "color": "#ffcc00",
-      "action": "Reference: wider grid bands (+15-25%), smaller sizes or leverage.",
+      "action": "Reference: wider grid bands (+15-25%). Upstream data quality is degraded.",
       "hysteresis": false,
       "confirmed_runs": 0
     },
     "dip_buying": {
-      "status": "FAVORABLE",
-      "color": "#00ff66",
-      "action": "Orderly pullbacks. Liquidity supports absorption."
+      "status": "DEFENSIVE",
+      "color": "#ff6600",
+      "action": "Support looks fragile; falling-knife risk is elevated."
     },
     "crypto_perps": {
       "status": "NOMINAL",
       "color": "#00ff66",
-      "action": "Moderate derivatives bias (-3.0% APR)."
+      "action": "Moderate derivatives bias (-1.9% APR)."
     },
     "dark_pool": {
       "status": "NOMINAL",
@@ -107,10 +110,10 @@
       "fallback": false
     },
     "crypto_leverage": {
-      "score": 25,
-      "btc_funding_apr": -3.0,
-      "btc_oi_mil": 2084.6,
-      "dvol_index": 52.4,
+      "score": 24,
+      "btc_funding_apr": -1.9,
+      "btc_oi_mil": 2088.0,
+      "dvol_index": 52.5,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
@@ -122,12 +125,12 @@
       "fallback": false
     },
     "dollar_liquidity": {
-      "score": 69,
-      "tga_billions": 958.4,
-      "tga_5d_flow": 66.1,
+      "score": 10,
+      "tga_billions": 850.0,
+      "tga_5d_flow": 0.0,
       "swaps_billions": 0.0,
-      "fallback": false,
-      "tga_fallback": false,
+      "fallback": true,
+      "tga_fallback": true,
       "swaps_fallback": false
     },
     "credit_stress": {
@@ -139,7 +142,7 @@
       "score": 1,
       "wiki_z": 0.09,
       "wiki_articles_ok": 4,
-      "border_wait_m": 5,
+      "border_wait_m": 0,
       "border_state": "OBSERVED",
       "fallback": false,
       "wiki_fallback": false,
@@ -152,10 +155,10 @@
       "fallback": false
     },
     "crypto_247": {
-      "score": 25,
-      "btc_funding_apr": -3.0,
-      "btc_oi_mil": 2084.6,
-      "dvol_index": 52.4,
+      "score": 24,
+      "btc_funding_apr": -1.9,
+      "btc_oi_mil": 2088.0,
+      "dvol_index": 52.5,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
@@ -167,12 +170,12 @@
       "fallback": false
     },
     "liquidity_plumbing": {
-      "score": 69,
-      "tga_billions": 958.4,
-      "tga_5d_flow": 66.1,
+      "score": 10,
+      "tga_billions": 850.0,
+      "tga_5d_flow": 0.0,
       "swaps_billions": 0.0,
-      "fallback": false,
-      "tga_fallback": false,
+      "fallback": true,
+      "tga_fallback": true,
       "swaps_fallback": false
     },
     "credit_statutory": {
@@ -184,7 +187,7 @@
       "score": 1,
       "wiki_z": 0.09,
       "wiki_articles_ok": 4,
-      "border_wait_m": 5,
+      "border_wait_m": 0,
       "border_state": "OBSERVED",
       "fallback": false,
       "wiki_fallback": false,
