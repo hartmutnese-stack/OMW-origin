@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "version": "3.6.5",
-  "timestamp": "2026-11-26 00:01 UTC",
-  "generated_at": "2026-11-26T00:01:12Z",
-  "valid_until": "2026-11-26T02:31:12Z",
+  "timestamp": "2026-11-26 00:31 UTC",
+  "generated_at": "2026-11-26T00:31:03Z",
+  "valid_until": "2026-11-26T03:01:03Z",
   "run_status": "DEGRADED",
-  "run_duration_seconds": 25.06,
+  "run_duration_seconds": 26.26,
   "symbol": "☀️",
   "composite_score": 24,
-  "composite_raw": 24.45,
+  "composite_raw": 24.65,
   "display_score": 24,
   "status": "CLEAR SKIES",
   "desc": "Systemic friction minimal. Normal market conditions across macro and crypto feeds.",
@@ -110,10 +110,10 @@
       "fallback": false
     },
     "crypto_leverage": {
-      "score": 15,
+      "score": 14,
       "btc_funding_apr": 11.0,
-      "btc_oi_mil": 2262.3,
-      "dvol_index": 52.3,
+      "btc_oi_mil": 2244.8,
+      "dvol_index": 51.3,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
@@ -139,10 +139,10 @@
       "fallback": false
     },
     "odds_and_ends": {
-      "score": 2,
+      "score": 6,
       "wiki_z": 0.09,
       "wiki_articles_ok": 4,
-      "border_wait_m": 20,
+      "border_wait_m": 30,
       "border_state": "OBSERVED",
       "fallback": false,
       "wiki_fallback": false,
@@ -155,10 +155,10 @@
       "fallback": false
     },
     "crypto_247": {
-      "score": 15,
+      "score": 14,
       "btc_funding_apr": 11.0,
-      "btc_oi_mil": 2262.3,
-      "dvol_index": 52.3,
+      "btc_oi_mil": 2244.8,
+      "dvol_index": 51.3,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
@@ -184,10 +184,10 @@
       "fallback": false
     },
     "cognitive_physical": {
-      "score": 2,
+      "score": 6,
       "wiki_z": 0.09,
       "wiki_articles_ok": 4,
-      "border_wait_m": 20,
+      "border_wait_m": 30,
       "border_state": "OBSERVED",
       "fallback": false,
       "wiki_fallback": false,
