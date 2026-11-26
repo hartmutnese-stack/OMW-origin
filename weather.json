@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "version": "3.6.5",
-  "timestamp": "2026-11-26 04:30 UTC",
-  "generated_at": "2026-11-26T04:30:39Z",
-  "valid_until": "2026-11-26T07:00:39Z",
+  "timestamp": "2026-11-26 05:00 UTC",
+  "generated_at": "2026-11-26T05:00:49Z",
+  "valid_until": "2026-11-26T07:30:49Z",
   "run_status": "COMPLETE",
-  "run_duration_seconds": 3.0,
+  "run_duration_seconds": 3.81,
   "symbol": "⛅",
   "composite_score": 36,
   "composite_raw": 36.05,
@@ -110,7 +110,7 @@
       "score": 12,
       "btc_funding_apr": 11.0,
       "btc_oi_mil": 2295.5,
-      "dvol_index": 49.0,
+      "dvol_index": 49.2,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
@@ -155,7 +155,7 @@
       "score": 12,
       "btc_funding_apr": 11.0,
       "btc_oi_mil": 2295.5,
-      "dvol_index": 49.0,
+      "dvol_index": 49.2,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
