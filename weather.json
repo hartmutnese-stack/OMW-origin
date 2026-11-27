@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "version": "3.6.5",
-  "timestamp": "2026-11-27 15:00 UTC",
-  "generated_at": "2026-11-27T15:00:53Z",
-  "valid_until": "2026-11-27T17:30:53Z",
+  "timestamp": "2026-11-27 15:30 UTC",
+  "generated_at": "2026-11-27T15:30:41Z",
+  "valid_until": "2026-11-27T18:00:41Z",
   "run_status": "COMPLETE",
-  "run_duration_seconds": 4.55,
+  "run_duration_seconds": 3.77,
   "symbol": "⛅",
-  "composite_score": 39,
-  "composite_raw": 39.85,
-  "display_score": 39,
+  "composite_score": 35,
+  "composite_raw": 35.05,
+  "display_score": 35,
   "status": "SCATTERED CLOUDS",
   "desc": "Operational noise within standard ranges. No immediate systemic fracture.",
   "color": "#ffcc00",
@@ -84,9 +84,9 @@
       "action": "Orderly pullbacks. Liquidity supports absorption."
     },
     "crypto_perps": {
-      "status": "HEAVY SHORT",
-      "color": "#ff6600",
-      "action": "Negative perp funding (-12.0% APR). Potential short squeeze."
+      "status": "NOMINAL",
+      "color": "#00ff66",
+      "action": "Neutral baseline funding (+11.0% APR)."
     },
     "dark_pool": {
       "status": "NOMINAL",
@@ -102,15 +102,15 @@
   "pillars": {
     "market_volatility": {
       "score": 47,
-      "vix": 26.89,
-      "move_index": 95.25,
+      "vix": 26.52,
+      "move_index": 95.3,
       "fallback": false
     },
     "crypto_leverage": {
-      "score": 39,
-      "btc_funding_apr": -12.0,
-      "btc_oi_mil": 2140.1,
-      "dvol_index": 53.4,
+      "score": 15,
+      "btc_funding_apr": 11.0,
+      "btc_oi_mil": 2156.8,
+      "dvol_index": 52.5,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
@@ -139,7 +139,7 @@
       "score": 0,
       "wiki_z": 0.02,
       "wiki_articles_ok": 4,
-      "border_wait_m": 0,
+      "border_wait_m": 10,
       "border_state": "OBSERVED",
       "fallback": false,
       "wiki_fallback": false,
@@ -147,15 +147,15 @@
     },
     "market_implied": {
       "score": 47,
-      "vix": 26.89,
-      "move_index": 95.25,
+      "vix": 26.52,
+      "move_index": 95.3,
       "fallback": false
     },
     "crypto_247": {
-      "score": 39,
-      "btc_funding_apr": -12.0,
-      "btc_oi_mil": 2140.1,
-      "dvol_index": 53.4,
+      "score": 15,
+      "btc_funding_apr": 11.0,
+      "btc_oi_mil": 2156.8,
+      "dvol_index": 52.5,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
@@ -184,7 +184,7 @@
       "score": 0,
       "wiki_z": 0.02,
       "wiki_articles_ok": 4,
-      "border_wait_m": 0,
+      "border_wait_m": 10,
       "border_state": "OBSERVED",
       "fallback": false,
       "wiki_fallback": false,
