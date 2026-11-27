@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "version": "3.6.5",
-  "timestamp": "2026-11-27 04:01 UTC",
-  "generated_at": "2026-11-27T04:01:08Z",
-  "valid_until": "2026-11-27T06:31:08Z",
+  "timestamp": "2026-11-27 04:31 UTC",
+  "generated_at": "2026-11-27T04:31:00Z",
+  "valid_until": "2026-11-27T07:01:00Z",
   "run_status": "DEGRADED",
-  "run_duration_seconds": 24.44,
+  "run_duration_seconds": 23.48,
   "symbol": "☀️",
   "composite_score": 23,
   "composite_raw": 23.05,
@@ -112,7 +112,7 @@
     "crypto_leverage": {
       "score": 12,
       "btc_funding_apr": 11.0,
-      "btc_oi_mil": 2083.4,
+      "btc_oi_mil": 2082.3,
       "dvol_index": 49.5,
       "fallback": false,
       "hl_fallback": false,
@@ -157,7 +157,7 @@
     "crypto_247": {
       "score": 12,
       "btc_funding_apr": 11.0,
-      "btc_oi_mil": 2083.4,
+      "btc_oi_mil": 2082.3,
       "dvol_index": 49.5,
       "fallback": false,
       "hl_fallback": false,
