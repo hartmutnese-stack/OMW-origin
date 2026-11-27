@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "version": "3.6.5",
-  "timestamp": "2026-11-27 12:00 UTC",
-  "generated_at": "2026-11-27T12:00:53Z",
-  "valid_until": "2026-11-27T14:30:53Z",
+  "timestamp": "2026-11-27 12:30 UTC",
+  "generated_at": "2026-11-27T12:30:42Z",
+  "valid_until": "2026-11-27T15:00:42Z",
   "run_status": "COMPLETE",
-  "run_duration_seconds": 5.26,
+  "run_duration_seconds": 4.06,
   "symbol": "⛅",
-  "composite_score": 33,
-  "composite_raw": 33.85,
-  "display_score": 33,
+  "composite_score": 34,
+  "composite_raw": 34.05,
+  "display_score": 34,
   "status": "SCATTERED CLOUDS",
   "desc": "Operational noise within standard ranges. No immediate systemic fracture.",
   "color": "#ffcc00",
@@ -101,16 +101,16 @@
   },
   "pillars": {
     "market_volatility": {
-      "score": 45,
-      "vix": 25.34,
+      "score": 46,
+      "vix": 25.35,
       "move_index": 97.54,
       "fallback": false
     },
     "crypto_leverage": {
       "score": 11,
       "btc_funding_apr": 11.0,
-      "btc_oi_mil": 2315.4,
-      "dvol_index": 48.5,
+      "btc_oi_mil": 2336.6,
+      "dvol_index": 48.2,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
@@ -146,16 +146,16 @@
       "cbp_fallback": false
     },
     "market_implied": {
-      "score": 45,
-      "vix": 25.34,
+      "score": 46,
+      "vix": 25.35,
       "move_index": 97.54,
       "fallback": false
     },
     "crypto_247": {
       "score": 11,
       "btc_funding_apr": 11.0,
-      "btc_oi_mil": 2315.4,
-      "dvol_index": 48.5,
+      "btc_oi_mil": 2336.6,
+      "dvol_index": 48.2,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
