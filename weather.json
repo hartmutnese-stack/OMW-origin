@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "version": "3.6.5",
-  "timestamp": "2026-11-27 17:00 UTC",
-  "generated_at": "2026-11-27T17:00:54Z",
-  "valid_until": "2026-11-27T19:30:54Z",
+  "timestamp": "2026-11-27 17:30 UTC",
+  "generated_at": "2026-11-27T17:30:42Z",
+  "valid_until": "2026-11-27T20:00:42Z",
   "run_status": "COMPLETE",
-  "run_duration_seconds": 4.77,
+  "run_duration_seconds": 4.04,
   "symbol": "⛅",
   "composite_score": 35,
-  "composite_raw": 35.45,
+  "composite_raw": 35.85,
   "display_score": 35,
   "status": "SCATTERED CLOUDS",
   "desc": "Operational noise within standard ranges. No immediate systemic fracture.",
@@ -86,7 +86,7 @@
     "crypto_perps": {
       "status": "NOMINAL",
       "color": "#00ff66",
-      "action": "Neutral baseline funding (+11.0% APR)."
+      "action": "Neutral baseline funding (+9.3% APR)."
     },
     "dark_pool": {
       "status": "NOMINAL",
@@ -101,16 +101,16 @@
   },
   "pillars": {
     "market_volatility": {
-      "score": 42,
-      "vix": 24.62,
-      "move_index": 95.33,
+      "score": 43,
+      "vix": 24.86,
+      "move_index": 95.27,
       "fallback": false
     },
     "crypto_leverage": {
-      "score": 14,
-      "btc_funding_apr": 11.0,
-      "btc_oi_mil": 2173.2,
-      "dvol_index": 51.8,
+      "score": 15,
+      "btc_funding_apr": 9.3,
+      "btc_oi_mil": 2169.3,
+      "dvol_index": 52.0,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
@@ -146,16 +146,16 @@
       "cbp_fallback": false
     },
     "market_implied": {
-      "score": 42,
-      "vix": 24.62,
-      "move_index": 95.33,
+      "score": 43,
+      "vix": 24.86,
+      "move_index": 95.27,
       "fallback": false
     },
     "crypto_247": {
-      "score": 14,
-      "btc_funding_apr": 11.0,
-      "btc_oi_mil": 2173.2,
-      "dvol_index": 51.8,
+      "score": 15,
+      "btc_funding_apr": 9.3,
+      "btc_oi_mil": 2169.3,
+      "dvol_index": 52.0,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
