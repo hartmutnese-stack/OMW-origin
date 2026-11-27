@@ -1,7 +1,7 @@
 
 ======================================================================
  OPEN MARKET WEATHER OBSERVATORY // HYBRID MACRO & CRYPTO // v3.6.5
- 2026-11-27 11:50 UTC // COMPLETE // VALID UNTIL 2026-11-27T14:20:21Z
+ 2026-11-27 12:00 UTC // COMPLETE // VALID UNTIL 2026-11-27T14:30:53Z
 ======================================================================
 
  SCOPE: Experimental rule-based macro regime observer.
@@ -19,8 +19,8 @@
  [*] COLLATERAL   : STABLE -> No meaningful central bank swap operations.
 
  --- 6 PILLARS ---
- [1] Market Volatility : Score 45/100 (VIX: 25.02 | MOVE: 97.54)
- [2] Crypto Leverage   : Score 11/100 (Funding: +11.0% APR | DVOL: 48.6%)
+ [1] Market Volatility : Score 45/100 (VIX: 25.34 | MOVE: 97.54)
+ [2] Crypto Leverage   : Score 11/100 (Funding: +11.0% APR | DVOL: 48.5%)
  [3] Short Volume      : Score 1/100 (Short ratio: 46.7% (20261125))
  [4] Dollar Liquidity  : Score 69/100 (TGA: $958.4B | Swaps: $0.0B)
  [5] Credit Stress     : Score 58/100 (Filings: 20)
