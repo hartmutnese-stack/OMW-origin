@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "version": "3.6.5",
-  "timestamp": "2026-11-27 06:00 UTC",
-  "generated_at": "2026-11-27T06:00:50Z",
-  "valid_until": "2026-11-27T08:30:50Z",
+  "timestamp": "2026-11-27 06:30 UTC",
+  "generated_at": "2026-11-27T06:30:41Z",
+  "valid_until": "2026-11-27T09:00:41Z",
   "run_status": "COMPLETE",
-  "run_duration_seconds": 4.25,
+  "run_duration_seconds": 3.92,
   "symbol": "⛅",
   "composite_score": 34,
   "composite_raw": 34.85,
@@ -55,7 +55,8 @@
       "detail": "4/6 articles usable"
     },
     "cbp": {
-      "status": "OK"
+      "status": "CLOSED",
+      "detail": "Laredo feed reachable; no delay value"
     }
   },
   "transition": {
@@ -109,7 +110,7 @@
     "crypto_leverage": {
       "score": 12,
       "btc_funding_apr": 11.0,
-      "btc_oi_mil": 2118.4,
+      "btc_oi_mil": 2153.6,
       "dvol_index": 49.9,
       "fallback": false,
       "hl_fallback": false,
@@ -139,8 +140,8 @@
       "score": 0,
       "wiki_z": 0.02,
       "wiki_articles_ok": 4,
-      "border_wait_m": 0,
-      "border_state": "OBSERVED",
+      "border_wait_m": null,
+      "border_state": "CLOSED",
       "fallback": false,
       "wiki_fallback": false,
       "cbp_fallback": false
@@ -154,7 +155,7 @@
     "crypto_247": {
       "score": 12,
       "btc_funding_apr": 11.0,
-      "btc_oi_mil": 2118.4,
+      "btc_oi_mil": 2153.6,
       "dvol_index": 49.9,
       "fallback": false,
       "hl_fallback": false,
@@ -184,8 +185,8 @@
       "score": 0,
       "wiki_z": 0.02,
       "wiki_articles_ok": 4,
-      "border_wait_m": 0,
-      "border_state": "OBSERVED",
+      "border_wait_m": null,
+      "border_state": "CLOSED",
       "fallback": false,
       "wiki_fallback": false,
       "cbp_fallback": false
