@@ -1,30 +1,28 @@
 {
   "schema_version": 1,
   "version": "3.6.5",
-  "timestamp": "2026-11-27 09:30 UTC",
-  "generated_at": "2026-11-27T09:30:46Z",
-  "valid_until": "2026-11-27T12:00:46Z",
-  "run_status": "DEGRADED",
-  "run_duration_seconds": 5.39,
+  "timestamp": "2026-11-27 10:00 UTC",
+  "generated_at": "2026-11-27T10:00:50Z",
+  "valid_until": "2026-11-27T12:30:50Z",
+  "run_status": "COMPLETE",
+  "run_duration_seconds": 3.04,
   "symbol": "⛅",
-  "composite_score": 34,
-  "composite_raw": 34.45,
-  "display_score": 34,
+  "composite_score": 33,
+  "composite_raw": 33.85,
+  "display_score": 33,
   "status": "SCATTERED CLOUDS",
   "desc": "Operational noise within standard ranges. No immediate systemic fracture.",
   "color": "#ffcc00",
   "data_quality": {
-    "status": "MEDIUM",
-    "score": 75,
-    "fallback_count": 1,
+    "status": "HIGH",
+    "score": 100,
+    "fallback_count": 0,
     "stale_count": 0,
-    "degraded_feeds": [
-      "deribit"
-    ]
+    "degraded_feeds": []
   },
   "fallback_flags": {
     "market_volatility": false,
-    "crypto_leverage": true,
+    "crypto_leverage": false,
     "short_volume": false,
     "dollar_liquidity": false,
     "credit_stress": false,
@@ -38,8 +36,7 @@
       "status": "OK"
     },
     "deribit": {
-      "status": "FALLBACK",
-      "error_type": "HTTP_5XX"
+      "status": "OK"
     },
     "finra": {
       "status": "OK"
@@ -72,20 +69,20 @@
     "recovery_target": null,
     "status_changed": false,
     "market_status": "CAUTION",
-    "clean_runs": 0
+    "clean_runs": 1
   },
   "tactical_posture": {
     "grid_bots": {
       "status": "CAUTION",
       "color": "#ffcc00",
-      "action": "Reference: wider grid bands (+15-25%). Upstream data quality is degraded.",
+      "action": "Reference: wider grid bands (+15-25%), smaller sizes or leverage.",
       "hysteresis": false,
       "confirmed_runs": 0
     },
     "dip_buying": {
-      "status": "DEFENSIVE",
-      "color": "#ff6600",
-      "action": "Support looks fragile; falling-knife risk is elevated."
+      "status": "FAVORABLE",
+      "color": "#00ff66",
+      "action": "Orderly pullbacks. Liquidity supports absorption."
     },
     "crypto_perps": {
       "status": "NOMINAL",
@@ -106,18 +103,18 @@
   "pillars": {
     "market_volatility": {
       "score": 44,
-      "vix": 24.71,
+      "vix": 24.81,
       "move_index": 97.54,
       "fallback": false
     },
     "crypto_leverage": {
-      "score": 15,
+      "score": 12,
       "btc_funding_apr": 11.0,
-      "btc_oi_mil": 2133.9,
-      "dvol_index": 52.0,
-      "fallback": true,
+      "btc_oi_mil": 2128.3,
+      "dvol_index": 49.5,
+      "fallback": false,
       "hl_fallback": false,
-      "dvol_fallback": true
+      "dvol_fallback": false
     },
     "short_volume": {
       "score": 1,
@@ -151,18 +148,18 @@
     },
     "market_implied": {
       "score": 44,
-      "vix": 24.71,
+      "vix": 24.81,
       "move_index": 97.54,
       "fallback": false
     },
     "crypto_247": {
-      "score": 15,
+      "score": 12,
       "btc_funding_apr": 11.0,
-      "btc_oi_mil": 2133.9,
-      "dvol_index": 52.0,
-      "fallback": true,
+      "btc_oi_mil": 2128.3,
+      "dvol_index": 49.5,
+      "fallback": false,
       "hl_fallback": false,
-      "dvol_fallback": true
+      "dvol_fallback": false
     },
     "dark_pool_finra": {
       "score": 1,
