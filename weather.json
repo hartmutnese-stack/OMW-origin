@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "version": "3.6.5",
-  "timestamp": "2026-11-27 11:30 UTC",
-  "generated_at": "2026-11-27T11:30:40Z",
-  "valid_until": "2026-11-27T14:00:40Z",
+  "timestamp": "2026-11-27 11:50 UTC",
+  "generated_at": "2026-11-27T11:50:21Z",
+  "valid_until": "2026-11-27T14:20:21Z",
   "run_status": "COMPLETE",
-  "run_duration_seconds": 3.71,
+  "run_duration_seconds": 3.76,
   "symbol": "⛅",
   "composite_score": 33,
   "composite_raw": 33.85,
@@ -55,8 +55,7 @@
       "detail": "4/6 articles usable"
     },
     "cbp": {
-      "status": "CLOSED",
-      "detail": "Laredo feed reachable; no delay value"
+      "status": "OK"
     }
   },
   "transition": {
@@ -102,16 +101,16 @@
   },
   "pillars": {
     "market_volatility": {
-      "score": 44,
-      "vix": 24.85,
+      "score": 45,
+      "vix": 25.02,
       "move_index": 97.54,
       "fallback": false
     },
     "crypto_leverage": {
-      "score": 12,
+      "score": 11,
       "btc_funding_apr": 11.0,
-      "btc_oi_mil": 2209.3,
-      "dvol_index": 49.0,
+      "btc_oi_mil": 2277.9,
+      "dvol_index": 48.6,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
@@ -140,23 +139,23 @@
       "score": 0,
       "wiki_z": 0.02,
       "wiki_articles_ok": 4,
-      "border_wait_m": null,
-      "border_state": "CLOSED",
+      "border_wait_m": 0,
+      "border_state": "OBSERVED",
       "fallback": false,
       "wiki_fallback": false,
       "cbp_fallback": false
     },
     "market_implied": {
-      "score": 44,
-      "vix": 24.85,
+      "score": 45,
+      "vix": 25.02,
       "move_index": 97.54,
       "fallback": false
     },
     "crypto_247": {
-      "score": 12,
+      "score": 11,
       "btc_funding_apr": 11.0,
-      "btc_oi_mil": 2209.3,
-      "dvol_index": 49.0,
+      "btc_oi_mil": 2277.9,
+      "dvol_index": 48.6,
       "fallback": false,
       "hl_fallback": false,
       "dvol_fallback": false
@@ -185,8 +184,8 @@
       "score": 0,
       "wiki_z": 0.02,
       "wiki_articles_ok": 4,
-      "border_wait_m": null,
-      "border_state": "CLOSED",
+      "border_wait_m": 0,
+      "border_state": "OBSERVED",
       "fallback": false,
       "wiki_fallback": false,
       "cbp_fallback": false
