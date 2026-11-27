@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "version": "3.6.5",
-  "timestamp": "2026-11-27 09:00 UTC",
-  "generated_at": "2026-11-27T09:00:51Z",
-  "valid_until": "2026-11-27T11:30:51Z",
+  "timestamp": "2026-11-27 09:30 UTC",
+  "generated_at": "2026-11-27T09:30:46Z",
+  "valid_until": "2026-11-27T12:00:46Z",
   "run_status": "DEGRADED",
-  "run_duration_seconds": 4.54,
+  "run_duration_seconds": 5.39,
   "symbol": "⛅",
   "composite_score": 34,
   "composite_raw": 34.45,
@@ -106,7 +106,7 @@
   "pillars": {
     "market_volatility": {
       "score": 44,
-      "vix": 24.75,
+      "vix": 24.71,
       "move_index": 97.54,
       "fallback": false
     },
@@ -151,7 +151,7 @@
     },
     "market_implied": {
       "score": 44,
-      "vix": 24.75,
+      "vix": 24.71,
       "move_index": 97.54,
       "fallback": false
     },
